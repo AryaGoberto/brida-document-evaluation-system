@@ -1,0 +1,1 @@
+<img src="{{ asset('images/brida.png') }}" alt="Logo BRIDA" class="h-16 w-auto" />
