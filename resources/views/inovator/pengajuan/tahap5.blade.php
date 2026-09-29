@@ -70,8 +70,19 @@
                                 <span class="text-amber-500 font-bold">★★★</span> Bintang 3 (Skor Maksimal)
                             </span>
                         </div>
-                        <div class="text-gray-500 italic">
-                            *Setiap baris mengunggah PDF mandiri dengan progress bar terisolasi.
+                        <div class="flex items-center gap-3">
+                            <span class="text-gray-500 italic hidden lg:inline">*Setiap baris mengunggah PDF mandiri dengan progress bar terisolasi.</span>
+                            @if (!empty($draft['indikator_files']))
+                                <form method="POST" action="{{ route('inovator.pengajuan.resetIndikator') }}" onsubmit="return confirm('Apakah Anda yakin ingin mengosongkan seluruh berkas dan mulai memilih berkas dari awal?')">
+                                    @csrf
+                                    <button type="submit" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold text-rose-700 bg-rose-50 hover:bg-rose-100 border border-rose-200 transition-colors">
+                                        <svg class="w-3.5 h-3.5 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                        </svg>
+                                        <span>Kosongkan Semua Berkas</span>
+                                    </button>
+                                </form>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -270,12 +281,21 @@
                                                         <p class="text-emerald-700 text-[10px]" x-text="fileInfo ? (fileInfo.size + ' • Terunggah') : ''"></p>
                                                     </div>
                                                 </div>
-                                                <button type="button"
-                                                        @click="$refs.fileInput.click()"
-                                                        title="Ganti Berkas PDF"
-                                                        class="text-[11px] font-semibold text-blue-600 hover:text-blue-800 underline flex-shrink-0">
-                                                    Ganti
-                                                </button>
+                                                <div class="flex items-center gap-2 flex-shrink-0">
+                                                    <button type="button"
+                                                            @click="$refs.fileInput.click()"
+                                                            title="Ganti Berkas PDF"
+                                                            class="text-[11px] font-semibold text-blue-600 hover:text-blue-800 underline">
+                                                        Ganti
+                                                    </button>
+                                                    <span class="text-gray-300">•</span>
+                                                    <button type="button"
+                                                            @click="hapusFile()"
+                                                            title="Hapus Berkas PDF"
+                                                            class="text-[11px] font-semibold text-rose-600 hover:text-rose-800 underline">
+                                                        Hapus
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -431,7 +451,20 @@
                                 console.error('Upload parse error', e);
                             }
                         } else {
-                            alert('Gagal mengunggah berkas indikator. Silakan coba kembali.');
+                            let errorMsg = 'Gagal mengunggah berkas indikator. Silakan coba kembali.';
+                            try {
+                                const err = JSON.parse(xhr.responseText);
+                                if (err.errors && err.errors.file) {
+                                    errorMsg = err.errors.file.join('\n');
+                                } else if (err.message) {
+                                    errorMsg = err.message;
+                                }
+                            } catch (e) {
+                                if (xhr.status === 413) {
+                                    errorMsg = 'Ukuran berkas melebihi kapasitas maksimal yang diizinkan server.';
+                                }
+                            }
+                            alert(errorMsg);
                         }
                     };
 
@@ -441,6 +474,27 @@
                     };
 
                     xhr.send(formData);
+                },
+                hapusFile() {
+                    if (!confirm('Apakah Anda yakin ingin menghapus berkas indikator ini?')) {
+                        return;
+                    }
+                    this.fileInfo = null;
+                    if (this.$refs.fileInput) {
+                        this.$refs.fileInput.value = '';
+                    }
+
+                    const formData = new FormData();
+                    formData.append('indikator_no', this.no);
+                    formData.append('_token', csrfToken);
+
+                    fetch('{{ route("inovator.pengajuan.hapusIndikator") }}', {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'X-Requested-With': 'XMLHttpRequest',
+                        }
+                    }).catch(e => console.error('Hapus berkas error', e));
                 }
             };
         }
