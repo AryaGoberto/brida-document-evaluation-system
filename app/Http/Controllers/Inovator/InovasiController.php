@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Inovator;
 
 use App\Http\Controllers\Controller;
+use App\Models\Inovasi;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
@@ -43,215 +44,105 @@ class InovasiController extends Controller
      */
     public function show(int $id, Request $request): View
     {
-        // Dataset contoh inovasi realistis
-        $daftarInovasi = [
-            4 => [
-                'id' => 4,
-                'judul' => 'Sistem Pengaduan Kebersihan Lingkungan (SIPASSA)',
-                'kategori' => 'Kebersihan & Lingkungan Hidup',
-                'opd' => 'Dinas Lingkungan Hidup Kota Makassar',
-                'status' => 'Revisi Diperlukan',
-                'status_type' => 'revisi',
-                'tanggal_pengajuan' => '05 September 2026',
-                'tanggal_evaluasi' => '22 September 2026',
-                'pic' => [
-                    'nama' => 'Ir. Andi Bau Massepe, M.Si',
-                    'nip' => '197904122005011006',
-                    'jabatan' => 'Kepala Bidang Pengelolaan Sampah & Limbah B3',
-                    'kontak' => '081144238910',
-                ],
-                'jadwal' => [
-                    'uji_coba' => '10 Februari 2026',
-                    'implementasi' => '01 Mei 2026',
-                ],
-                'deskripsi' => [
-                    'rancang_bangun' => '<p>SIPASSA merupakan platform partisipasi publik berbasis web dan WhatsApp bot yang memungkinkan warga Kota Makassar melaporkan titik tumpukan sampah liar secara geotagging real-time. Sistem ini mengintegrasikan armada truk sampah kebersihan kecamatan dengan pantauan dashboard komando Dinas Lingkungan Hidup.</p>',
-                    'tujuan' => '<p>1. Memangkas waktu respons pengangkutan sampah liar dari rata-rata 3 hari menjadi kurang dari 4 jam.<br>2. Mengoptimalkan rute bahan bakar armada operasional kebersihan.<br>3. Mendorong kesadaran pemilahan sampah organik dan anorganik dari tingkat RT/RW.</p>',
-                    'manfaat' => '<p>• <strong>Bagi Warga:</strong> Kepastian tindak lanjut aduan dengan notifikasi foto sebelum & sesudah pembersihan.<br>• <strong>Bagi Pemkot Makassar:</strong> Penghematan biaya bahan bakar armada sebesar 22% dan peningkatan skor Adipura Kota.</p>',
-                ],
-                'sdgs' => [
-                    ['no' => 3, 'nama' => 'Kehidupan Sehat dan Sejahtera', 'warna' => 'bg-emerald-600'],
-                    ['no' => 11, 'nama' => 'Kota dan Pemukiman Berkelanjutan', 'warna' => 'bg-amber-500'],
-                    ['no' => 12, 'nama' => 'Konsumsi dan Produksi Bertanggung Jawab', 'warna' => 'bg-yellow-600'],
-                    ['no' => 13, 'nama' => 'Penanganan Perubahan Iklim', 'warna' => 'bg-green-700'],
-                ],
-                'feedback' => [
-                    'ai' => [
-                        'ringkasan' => 'Analisis AI mendeteksi 2 ketidaksesuaian dokumen bukti dukung:',
-                        'catatan' => [
-                            'Indikator 1 (Regulasi): Dokumen SK yang diunggah belum mencantumkan tanda tangan basah / barcode TTE Kepala Daerah.',
-                            'Indikator 6 (Keterlibatan Aktor): Dokumen MoU kolaborasi komunitas bank sampah belum melampirkan lembar pengesahan resmi.',
-                        ],
-                        'skor_prediksi' => 64.8,
-                    ],
-                    'evaluator' => [
-                        'nama' => 'Drs. H. M. Rusli, M.Si (Tim Evaluator BRIDA)',
-                        'tanggal' => '22 Sep 2026 15:45 WITA',
-                        'catatan' => 'Proposal inovasi SIPASSA sangat prospektif dan berdampak langsung ke masyarakat. Namun berkas dikembalikan untuk REVISI pada Indikator 1 dan 6. Silakan unggah ulang dokumen perbaikan melalui tombol [Perbaiki Berkas] sebelum 30 September 2026 agar dapat diteruskan ke tahap penetapan akhir.',
-                    ],
-                ],
-                'indikator_penilaian' => [
-                    1 => ['bintang' => 1, 'catatan' => 'Skor diturunkan ke Bintang 1: Dokumen SK belum ditandatangani Kepala Daerah.', 'perlu_revisi' => true],
-                    2 => ['bintang' => 2, 'catatan' => 'Ketersediaan SDM memadai (22 orang personil).', 'perlu_revisi' => false],
-                    3 => ['bintang' => 2, 'catatan' => 'Terdapat DPA tahun anggaran 2026.', 'perlu_revisi' => false],
-                    4 => ['bintang' => 2, 'catatan' => 'Bimtek terlaksana 2 kali dalam 2 tahun terakhir.', 'perlu_revisi' => false],
-                    5 => ['bintang' => 2, 'catatan' => 'Tercantum dalam dokumen RKPD T-1 dan T-2.', 'perlu_revisi' => false],
-                    6 => ['bintang' => 1, 'catatan' => 'Skor diturunkan: Lembar MoU kemitraan bank sampah belum disahkan.', 'perlu_revisi' => true],
-                    7 => ['bintang' => 2, 'catatan' => 'Struktur penugasan tim pelaksana jelas dalam SK Kepala Perangkat Daerah.', 'perlu_revisi' => false],
-                    8 => ['bintang' => 2, 'catatan' => 'Inovasi melibatkan 4 perangkat daerah terkait.', 'perlu_revisi' => false],
-                    9 => ['bintang' => 2, 'catatan' => 'Sosialisasi aktif melalui konten media sosial.', 'perlu_revisi' => false],
-                    10 => ['bintang' => 2, 'catatan' => 'Terdapat pedoman teknis berupa buku elektronik.', 'perlu_revisi' => false],
-                    11 => ['bintang' => 2, 'catatan' => 'Layanan informasi melalui 2 media (aplikasi web dan WA bot).', 'perlu_revisi' => false],
-                    12 => ['bintang' => 3, 'catatan' => 'Hasil layanan inovasi diperoleh dalam waktu 1 hari.', 'perlu_revisi' => false],
-                    13 => ['bintang' => 2, 'catatan' => 'Layanan daring telah terintegrasi dalam satu portal unit organisasi.', 'perlu_revisi' => false],
-                    14 => ['bintang' => 2, 'catatan' => 'Pernah 2 kali direplikasi di daerah lain yang berbeda.', 'perlu_revisi' => false],
-                    15 => ['bintang' => 3, 'catatan' => 'Pelaksanaan kerja sudah didukung sistem informasi online/daring.', 'perlu_revisi' => false],
-                    16 => ['bintang' => 2, 'catatan' => 'Penerima manfaat mencapai 185 orang dengan efisiensi belanja.', 'perlu_revisi' => false],
-                    17 => ['bintang' => 2, 'catatan' => 'Dampak peningkatan kepuasan & penghematan biaya OPD terukur.', 'perlu_revisi' => false],
-                    18 => ['bintang' => 2, 'catatan' => 'Inovasi dapat diciptakan dalam rentang waktu 6 bulan.', 'perlu_revisi' => false],
-                    19 => ['bintang' => 2, 'catatan' => 'Tingkat penyelesaian layanan pengaduan mencapai 75%.', 'perlu_revisi' => false],
-                    20 => ['bintang' => 2, 'catatan' => 'Hasil pengukuran kepuasan pengguna dari evaluasi Survei Kepuasan Masyarakat.', 'perlu_revisi' => false],
-                    21 => ['bintang' => 2, 'catatan' => 'Memenuhi 4 unsur substansi kualitas inovasi daerah.', 'perlu_revisi' => false],
-                ],
-            ],
-            1 => [
-                'id' => 1,
-                'judul' => 'Sistem Antrean Puskesmas Digital (SAPA Sehat)',
-                'kategori' => 'Pelayanan Publik & Kesehatan',
-                'opd' => 'Dinas Kesehatan Kota Makassar',
-                'status' => 'Validasi BRIDA',
-                'status_type' => 'validasi',
-                'tanggal_pengajuan' => '20 September 2026',
-                'tanggal_evaluasi' => '24 September 2026',
-                'pic' => [
-                    'nama' => 'dr. Hj. Ratna Sari Dewi, M.Kes',
-                    'nip' => '198203152008042003',
-                    'jabatan' => 'Kepala Seksi Pelayanan Kesehatan Primer',
-                    'kontak' => '081242339900',
-                ],
-                'jadwal' => [
-                    'uji_coba' => '15 Januari 2026',
-                    'implementasi' => '01 April 2026',
-                ],
-                'deskripsi' => [
-                    'rancang_bangun' => '<p>SAPA Sehat mendigitalisasi antrean di 47 Puskesmas se-Kota Makassar terhubung dengan nomor NIK kependudukan dan integrasi BPJS Mobile JKN.</p>',
-                    'tujuan' => '<p>Mengeliminasi penumpukan pasien di ruang tunggu fasilitas kesehatan primer dan memberikan estimasi waktu kedatangan yang akurat.</p>',
-                    'manfaat' => '<p>Waktu tunggu berkurang dari 120 menit menjadi rata-rata 25 menit per kunjungan poli.</p>',
-                ],
-                'sdgs' => [
-                    ['no' => 3, 'nama' => 'Kehidupan Sehat dan Sejahtera', 'warna' => 'bg-emerald-600'],
-                    ['no' => 9, 'nama' => 'Industri, Inovasi dan Infrastruktur', 'warna' => 'bg-orange-500'],
-                ],
-                'feedback' => [
-                    'ai' => [
-                        'ringkasan' => 'Analisis AI memvalidasi seluruh berkas 21 indikator lengkap dengan probabilitas orisinalitas 98.2%.',
-                        'catatan' => [
-                            'Kelengkapan berkas memenuhi ambang batas bintang 2 dan bintang 3.',
-                        ],
-                        'skor_prediksi' => 87.5,
-                    ],
-                    'evaluator' => [
-                        'nama' => 'Tim Verifikator BRIDA Makassar',
-                        'tanggal' => '24 Sep 2026 10:15 WITA',
-                        'catatan' => 'Dokumen sedang dalam proses sidang pleno penilai BRIDA. Tidak ada tindakan sanggahan yang dibutuhkan saat ini.',
-                    ],
-                ],
-                'indikator_penilaian' => array_fill(1, 21, ['bintang' => 2, 'catatan' => 'Tervalidasi sesuai syarat.', 'perlu_revisi' => false]),
-            ],
-            3 => [
-                'id' => 3,
-                'judul' => 'Lorong Wisata Cerdas Berbasis Komunitas (Longwis Smart)',
-                'kategori' => 'Pariwisata & Ekonomi Kreatif',
-                'opd' => 'Dinas Pariwisata Kota Makassar',
-                'status' => 'Selesai',
-                'status_type' => 'selesai',
-                'tanggal_pengajuan' => '10 September 2026',
-                'tanggal_evaluasi' => '18 September 2026',
-                'pic' => [
-                    'nama' => 'Muhammad Yusuf, S.STP., M.AP',
-                    'nip' => '198401102007011002',
-                    'jabatan' => 'Kepala Bidang Pengembangan Destinasi Wisata',
-                    'kontak' => '081355442211',
-                ],
-                'jadwal' => [
-                    'uji_coba' => '01 November 2025',
-                    'implementasi' => '15 Januari 2026',
-                ],
-                'deskripsi' => [
-                    'rancang_bangun' => '<p>Pengembangan sistem katalog digital QR Code dan virtual tour untuk 1.000 lorong wisata di Kota Makassar.</p>',
-                    'tujuan' => '<p>Mendorong perputaran ekonomi UMKM lorong berbasis kuliner lokal dan kerajinan kreatif.</p>',
-                    'manfaat' => '<p>Peningkatan omzet pelaku usaha lorong sebesar 45% dan kunjungan turis domestik.</p>',
-                ],
-                'sdgs' => [
-                    ['no' => 8, 'nama' => 'Pekerjaan Layak dan Pertumbuhan Ekonomi', 'warna' => 'bg-rose-700'],
-                    ['no' => 11, 'nama' => 'Kota dan Pemukiman Berkelanjutan', 'warna' => 'bg-amber-500'],
-                ],
-                'feedback' => [
-                    'ai' => [
-                        'ringkasan' => 'Evaluasi AI memberikan skor kematangan Sangat Inovatif (94.2/100).',
-                        'catatan' => [
-                            'Seluruh bukti dukung dan kemanfaatan ekonomi terverifikasi akurat.',
-                        ],
-                        'skor_prediksi' => 94.2,
-                    ],
-                    'evaluator' => [
-                        'nama' => 'Kepala BRIDA Kota Makassar',
-                        'tanggal' => '18 Sep 2026 14:00 WITA',
-                        'catatan' => 'Inovasi dinyatakan lolos final dengan predikat SANGAT INOVATIF dan direkomendasikan untuk mewakili Kota Makassar pada IGA Kemendagri 2026.',
-                    ],
-                ],
-                'indikator_penilaian' => array_fill(1, 21, ['bintang' => 3, 'catatan' => 'Memenuhi syarat bintang 3 maksimal.', 'perlu_revisi' => false]),
-            ],
-        ];
+        $inovasiModel = Inovasi::with(['user', 'evaluator', 'berkas', 'penilaian'])->findOrFail($id);
 
-        // Jika ID belum terdaftar di dataset, buat fallback data dinamis berdasarkan ID
-        $inovasi = $daftarInovasi[$id] ?? [
-            'id' => $id,
-            'judul' => 'Inovasi Daerah Layanan Terpadu #' . $id,
-            'kategori' => 'Pelayanan Publik',
-            'opd' => 'Perangkat Daerah Kota Makassar',
-            'status' => 'Validasi BRIDA',
-            'status_type' => 'validasi',
-            'tanggal_pengajuan' => date('d F Y', strtotime('-5 days')),
-            'tanggal_evaluasi' => date('d F Y', strtotime('-1 days')),
+        // Petakan SDGs ke master data
+        $masterSdgs = collect(PengajuanInovasiController::getSdgsList())->keyBy('no');
+        $mappedSdgs = [];
+        $rawSdgs = is_array($inovasiModel->sdgs) ? $inovasiModel->sdgs : [];
+        foreach ($rawSdgs as $sdgItem) {
+            if (is_numeric($sdgItem) && $masterSdgs->has((int) $sdgItem)) {
+                $mappedSdgs[] = $masterSdgs->get((int) $sdgItem);
+            } elseif (is_array($sdgItem) && isset($sdgItem['no'])) {
+                $mappedSdgs[] = $sdgItem;
+            }
+        }
+
+        // Helper format teks deskripsi
+        $formatDeskripsi = function (?string $text, string $defaultPlaceholder): string {
+            if (! $text || trim(strip_tags($text)) === '') {
+                return '<p class="text-gray-400 italic">' . e($defaultPlaceholder) . '</p>';
+            }
+            if (str_contains($text, '<p>') || str_contains($text, '<br>')) {
+                return $text;
+            }
+            return nl2br(e($text));
+        };
+
+        // Kumpulkan catatan AI dari catatan inovasi dan indikator
+        $penilaianByIndikator = $inovasiModel->penilaian->keyBy('nomor_indikator');
+        $aiCatatan = [];
+        if (! empty($inovasiModel->catatan_ai)) {
+            $aiCatatan[] = $inovasiModel->catatan_ai;
+        }
+        foreach ($penilaianByIndikator as $p) {
+            if ($p->status_verifikasi === 'ditolak' && ! empty($p->catatan_evaluator)) {
+                $aiCatatan[] = "Indikator {$p->nomor_indikator} ({$p->nama_indikator}): {$p->catatan_evaluator}";
+            }
+        }
+        if (empty($aiCatatan)) {
+            $aiCatatan[] = 'Berkas bukti dukung sedang/telah diproses dalam sistem evaluasi BRIDA.';
+        }
+
+        $evaluatorNama = $inovasiModel->evaluator_ketua
+            ?: ($inovasiModel->evaluator?->name ?? 'Tim Evaluator BRIDA Kota Makassar');
+
+        $evaluatorTanggal = $inovasiModel->verified_at
+            ? $inovasiModel->verified_at->translatedFormat('d M Y H:i') . ' WITA'
+            : ($inovasiModel->updated_at ? $inovasiModel->updated_at->translatedFormat('d M Y H:i') . ' WITA' : '-');
+
+        $evaluatorCatatan = $inovasiModel->catatan_revisi_umum
+            ?: ($inovasiModel->rekomendasi_final
+                ?: ($inovasiModel->status === 'selesai'
+                    ? 'Inovasi telah diverifikasi dan disahkan oleh Tim Evaluator BRIDA Kota Makassar.'
+                    : ($inovasiModel->status === 'revisi'
+                        ? 'Terdapat berkas indikator yang perlu diperbaiki. Silakan periksa catatan indikator dan unggah ulang berkas perbaikan.'
+                        : 'Berkas pengajuan telah diterima lengkap dan dalam antrean evaluasi verifikator BRIDA.')));
+
+        // Data inovasi terstruktur untuk view
+        $inovasi = [
+            'id' => $inovasiModel->id,
+            'kode' => $inovasiModel->kode,
+            'judul' => $inovasiModel->judul_inovasi,
+            'kategori' => $inovasiModel->kategori ?? 'Umum',
+            'opd' => $inovasiModel->nama_opd ?: ($inovasiModel->user?->nama_instansi ?: 'Perangkat Daerah Kota Makassar'),
+            'status' => $inovasiModel->status_sistem,
+            'status_type' => $inovasiModel->status_type,
+            'tanggal_pengajuan' => $inovasiModel->submitted_at ? $inovasiModel->submitted_at->translatedFormat('d F Y') : ($inovasiModel->created_at ? $inovasiModel->created_at->translatedFormat('d F Y') : '-'),
+            'tanggal_evaluasi' => $inovasiModel->verified_at ? $inovasiModel->verified_at->translatedFormat('d F Y') : ($inovasiModel->updated_at ? $inovasiModel->updated_at->translatedFormat('d F Y') : '-'),
             'pic' => [
-                'nama' => 'Budi Santoso, S.Kom., M.Si',
-                'nip' => '198501012010011001',
-                'jabatan' => 'Pranata Komputer Ahli Muda',
-                'kontak' => '081234567890',
+                'nama' => $inovasiModel->pic_nama ?: ($inovasiModel->user?->name ?: '-'),
+                'nip' => $inovasiModel->pic_nip ?: '-',
+                'jabatan' => $inovasiModel->pic_jabatan ?: '-',
+                'kontak' => $inovasiModel->pic_telepon ?: ($inovasiModel->pic_email ?: ($inovasiModel->user?->email ?: '-')),
             ],
             'jadwal' => [
-                'uji_coba' => date('d F Y', strtotime('-4 months')),
-                'implementasi' => date('d F Y', strtotime('-2 months')),
+                'uji_coba' => $inovasiModel->waktu_uji_coba ? $inovasiModel->waktu_uji_coba->translatedFormat('d F Y') : '-',
+                'implementasi' => $inovasiModel->waktu_implementasi ? $inovasiModel->waktu_implementasi->translatedFormat('d F Y') : '-',
             ],
             'deskripsi' => [
-                'rancang_bangun' => '<p>Inovasi ini dirancang untuk menyelesaikan hambatan pelayanan publik melalui digitalisasi proses terpadu.</p>',
-                'tujuan' => '<p>Meningkatkan efisiensi dan transparansi pelayanan publik.</p>',
-                'manfaat' => '<p>Mempercepat waktu pelayanan dan mempermudah akses warga.</p>',
+                'rancang_bangun' => $formatDeskripsi($inovasiModel->rancang_bangun, 'Belum ada keterangan rancang bangun.'),
+                'tujuan' => $formatDeskripsi($inovasiModel->tujuan_inovasi, 'Belum ada keterangan tujuan inovasi.'),
+                'manfaat' => $formatDeskripsi($inovasiModel->manfaat_inovasi, 'Belum ada keterangan manfaat inovasi.'),
             ],
-            'sdgs' => [
-                ['no' => 9, 'nama' => 'Industri, Inovasi dan Infrastruktur', 'warna' => 'bg-orange-500'],
-                ['no' => 11, 'nama' => 'Kota dan Pemukiman Berkelanjutan', 'warna' => 'bg-amber-500'],
-            ],
+            'sdgs' => $mappedSdgs,
             'feedback' => [
                 'ai' => [
-                    'ringkasan' => 'Dokumen inovasi sedang dalam antrean verifikasi komparatif model AI BRIDA.',
-                    'catatan' => ['Pengecekan orisinalitas dokumen sedang berlangsung.'],
-                    'skor_prediksi' => 78.0,
+                    'ringkasan' => $inovasiModel->catatan_ai ?: 'Hasil analisis pemrosesan berkas inovasi oleh sistem AI BRIDA.',
+                    'catatan' => $aiCatatan,
+                    'skor_prediksi' => round((float) ($inovasiModel->skor_ai_total ?? 0.0), 1),
                 ],
                 'evaluator' => [
-                    'nama' => 'Tim Verifikator BRIDA',
-                    'tanggal' => date('d M Y H:i'),
-                    'catatan' => 'Berkas pengajuan telah diterima lengkap dan dijadwalkan dalam agenda validasi tim evaluator.',
+                    'nama' => $evaluatorNama,
+                    'tanggal' => $evaluatorTanggal,
+                    'catatan' => $evaluatorCatatan,
                 ],
             ],
-            'indikator_penilaian' => array_fill(1, 21, ['bintang' => 2, 'catatan' => 'Sesuai indikator dasar.', 'perlu_revisi' => false]),
         ];
 
         // Master 21 indikator dengan bobot
         $masterIndikator = self::getBobotIndikatorList();
 
-        // Hitung total skor dari penilaian (Bintang x Bobot)
         $totalSkor = 0;
         $totalBobot = 0;
         $indikatorDetail = [];
@@ -259,18 +150,33 @@ class InovasiController extends Controller
         $jumlahPerluRevisi = 0;
 
         foreach ($masterIndikator as $no => $m) {
-            $penilaian = $inovasi['indikator_penilaian'][$no] ?? ['bintang' => 2, 'catatan' => 'Valid', 'perlu_revisi' => false];
-            $bintang = $penilaian['bintang'];
-            $bobot = $m['bobot'];
+            $p = $penilaianByIndikator->get($no);
+            $bobot = (float) $m['bobot'];
+
+            // Tentukan bintang dari skor evaluator jika sudah ada, atau skor AI, default ke 2
+            $bintang = 2;
+            if ($p) {
+                $bintang = $p->skor_evaluator_bintang ?? ($p->skor_ai_bintang ?? 2);
+            }
+
             $skorIndikator = $bintang * $bobot;
-
             $totalSkor += $skorIndikator;
-            $totalBobot += (3 * $bobot); // Skor maksimal jika semua 3 bintang
+            $totalBobot += (3 * $bobot);
 
-            if (!empty($penilaian['perlu_revisi'])) {
+            // Deteksi apakah indikator ini memerlukan revisi
+            $perluRevisi = false;
+            if ($p && ($p->status_verifikasi === 'ditolak' || str_contains(strtolower($p->catatan_evaluator ?? ''), 'revisi'))) {
+                $perluRevisi = true;
+            } elseif ($inovasiModel->status === 'revisi' && $bintang === 1) {
+                $perluRevisi = true;
+            }
+
+            if ($perluRevisi) {
                 $adaRevisi = true;
                 $jumlahPerluRevisi++;
             }
+
+            $catatan = $p?->catatan_evaluator ?: ($p?->ringkasan_ai ?: 'Sesuai dengan kriteria indikator.');
 
             $indikatorDetail[$no] = [
                 'no' => $no,
@@ -279,13 +185,22 @@ class InovasiController extends Controller
                 'bintang' => $bintang,
                 'skor' => $skorIndikator,
                 'skor_maksimal' => 3 * $bobot,
-                'catatan' => $penilaian['catatan'],
-                'perlu_revisi' => $penilaian['perlu_revisi'],
+                'catatan' => $catatan,
+                'perlu_revisi' => $perluRevisi,
             ];
         }
 
-        // Normalisasi skor ke skala 100
-        $persentaseSkor = $totalBobot > 0 ? round(($totalSkor / $totalBobot) * 100, 1) : 0;
+        if ($inovasiModel->status === 'revisi' && ! $adaRevisi) {
+            $adaRevisi = true;
+            $jumlahPerluRevisi = max(1, $jumlahPerluRevisi);
+        }
+
+        // Skor akhir
+        if ($inovasiModel->skor_final !== null && (float) $inovasiModel->skor_final > 0) {
+            $persentaseSkor = round((float) $inovasiModel->skor_final, 1);
+        } else {
+            $persentaseSkor = $totalBobot > 0 ? round(($totalSkor / $totalBobot) * 100, 1) : 0;
+        }
 
         return view('inovator.inovasi.detail', compact(
             'inovasi',
