@@ -26,6 +26,7 @@ class RegistrationTest extends TestCase
         ]);
 
         $this->assertAuthenticated();
-        $response->assertRedirect(route('dashboard', absolute: false));
+        // Registrasi user baru otomatis role 'inovator' → redirect ke inovator.dashboard
+        $response->assertRedirect(route('inovator.dashboard', absolute: false));
     }
 }

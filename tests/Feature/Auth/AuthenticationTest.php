@@ -27,7 +27,21 @@ class AuthenticationTest extends TestCase
         ]);
 
         $this->assertAuthenticated();
-        $response->assertRedirect(route('dashboard', absolute: false));
+        // Login redirect sekarang berbasis role: inovator → /inovator/dashboard
+        $response->assertRedirect(route('inovator.dashboard', absolute: false));
+    }
+
+    public function test_evaluator_can_authenticate_and_redirect_to_evaluator_dashboard(): void
+    {
+        $evaluator = User::factory()->evaluator()->create();
+
+        $response = $this->post('/login', [
+            'email' => $evaluator->email,
+            'password' => 'password',
+        ]);
+
+        $this->assertAuthenticated();
+        $response->assertRedirect(route('evaluator.dashboard', absolute: false));
     }
 
     public function test_users_can_not_authenticate_with_invalid_password(): void
