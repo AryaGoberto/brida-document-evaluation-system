@@ -12,7 +12,7 @@ class InovatorWizardTest extends TestCase
 
     public function test_all_wizard_stages_render_successfully(): void
     {
-        $user = User::factory()->create();
+        $user = User::factory()->inovator()->create();
 
         $response = $this->actingAs($user)->get(route('inovator.dashboard'));
         $response->assertStatus(200);
@@ -35,7 +35,7 @@ class InovatorWizardTest extends TestCase
 
     public function test_can_save_draft_at_tahap1(): void
     {
-        $user = User::factory()->create();
+        $user = User::factory()->inovator()->create();
 
         $response = $this->actingAs($user)->post(route('inovator.pengajuan.simpanTahap1'), [
             'action' => 'draft',
@@ -52,10 +52,37 @@ class InovatorWizardTest extends TestCase
 
     public function test_detail_and_evaluation_page_renders_successfully(): void
     {
-        $user = User::factory()->create();
+        $user = User::factory()->inovator()->create();
+
+        // Inovasi dengan status revisi
+        $inovasiRevisi = \App\Models\Inovasi::create([
+            'id' => 4,
+            'user_id' => $user->id,
+            'kode_registrasi' => 'BRD-2026-0004',
+            'judul_inovasi' => 'Sistem Pengaduan Kebersihan Lingkungan (SIPASSA)',
+            'kategori' => 'Kebersihan & Lingkungan Hidup',
+            'nama_opd' => 'Dinas Lingkungan Hidup Kota Makassar',
+            'status' => 'revisi',
+            'tahap' => 5,
+            'skor_ai_total' => 64.8,
+            'catatan_ai' => 'Analisis AI mendeteksi 2 ketidaksesuaian dokumen bukti dukung.',
+        ]);
+
+        // Inovasi dengan status selesai
+        $inovasiSelesai = \App\Models\Inovasi::create([
+            'id' => 3,
+            'user_id' => $user->id,
+            'kode_registrasi' => 'BRD-2026-0003',
+            'judul_inovasi' => 'Lorong Wisata Cerdas Berbasis Komunitas (Longwis Smart)',
+            'kategori' => 'Pariwisata & Ekonomi Kreatif',
+            'nama_opd' => 'Dinas Pariwisata Kota Makassar',
+            'status' => 'selesai',
+            'tahap' => 5,
+            'skor_final' => 94.2,
+        ]);
 
         // Test inovasi dengan status Revisi Diperlukan (ID 4)
-        $response = $this->actingAs($user)->get(route('inovator.inovasi.show', 4));
+        $response = $this->actingAs($user)->get(route('inovator.inovasi.show', $inovasiRevisi->id));
         $response->assertStatus(200);
         $response->assertSee('Panel Metadata Administratif');
         $response->assertSee('Tabel Hasil Penilaian');
@@ -63,14 +90,14 @@ class InovatorWizardTest extends TestCase
         $response->assertSee('Perbaiki Berkas');
 
         // Test inovasi dengan status Selesai (ID 3)
-        $response = $this->actingAs($user)->get(route('inovator.inovasi.show', 3));
+        $response = $this->actingAs($user)->get(route('inovator.inovasi.show', $inovasiSelesai->id));
         $response->assertStatus(200);
         $response->assertSee('Evaluasi Selesai');
     }
 
     public function test_tahap5_revision_mode_renders_successfully(): void
     {
-        $user = User::factory()->create();
+        $user = User::factory()->inovator()->create();
 
         $response = $this->actingAs($user)->get(route('inovator.pengajuan.tahap5', [
             'revisi' => 1,
@@ -78,13 +105,14 @@ class InovatorWizardTest extends TestCase
         ]));
 
         $response->assertStatus(200);
+        
         $response->assertSee('Mode Perbaikan Berkas');
         $response->assertSee('Perlu Perbaikan Berkas');
     }
 
     public function test_profil_page_renders_successfully(): void
     {
-        $user = User::factory()->create();
+        $user = User::factory()->inovator()->create();
 
         $response = $this->actingAs($user)->get(route('inovator.profil'));
         $response->assertStatus(200);
@@ -95,7 +123,7 @@ class InovatorWizardTest extends TestCase
 
     public function test_can_update_instansi_information(): void
     {
-        $user = User::factory()->create();
+        $user = User::factory()->inovator()->create();
 
         $response = $this->actingAs($user)->patch(route('inovator.profil.instansi'), [
             'name' => 'Ahmad Sudirman',
@@ -138,7 +166,7 @@ class InovatorWizardTest extends TestCase
 
     public function test_tahap5_displays_indikator_13_daring_and_luring(): void
     {
-        $user = User::factory()->create();
+        $user = User::factory()->inovator()->create();
 
         $response = $this->actingAs($user)->get(route('inovator.pengajuan.tahap5'));
         $response->assertStatus(200);
@@ -166,7 +194,7 @@ class InovatorWizardTest extends TestCase
 
     public function test_dashboard_route_redirects_to_inovator_dashboard(): void
     {
-        $user = User::factory()->create();
+        $user = User::factory()->inovator()->create();
 
         $response = $this->actingAs($user)->get(route('dashboard'));
         $response->assertRedirect(route('inovator.dashboard'));
