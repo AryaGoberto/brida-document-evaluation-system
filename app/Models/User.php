@@ -14,6 +14,7 @@ use Illuminate\Notifications\Notifiable;
     'name',
     'email',
     'password',
+    'role',
     'nama_instansi',
     'alamat_kantor',
     'email_dinas',
@@ -39,5 +40,38 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    /** Cek apakah user adalah Inovator (OPD) */
+    public function isInovator(): bool
+    {
+        return $this->role === 'inovator';
+    }
+
+    /** Cek apakah user adalah Evaluator BRIDA */
+    public function isEvaluator(): bool
+    {
+        return in_array($this->role, ['evaluator', 'admin']);
+    }
+
+    /** URL dashboard sesuai role */
+    public function dashboardRoute(): string
+    {
+        return match ($this->role) {
+            'evaluator', 'admin' => route('evaluator.dashboard'),
+            default              => route('inovator.dashboard'),
+        };
+    }
+
+    /** Pengajuan inovasi yang dibuat oleh user (Inovator) */
+    public function inovasis(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Inovasi::class, 'user_id');
+    }
+
+    /** Inovasi yang diverifikasi oleh user (Evaluator) */
+    public function verifikasis(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Inovasi::class, 'evaluator_id');
     }
 }
