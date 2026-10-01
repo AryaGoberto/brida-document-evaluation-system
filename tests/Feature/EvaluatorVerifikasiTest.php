@@ -51,9 +51,9 @@ class EvaluatorVerifikasiTest extends TestCase
         $response = $this->actingAs($user)->get(route('evaluator.verifikasi.show', 1));
         $response->assertStatus(200);
 
-        // Panel Kanan Accordion 21 Indikator
-        $response->assertSee('Daftar 21 Indikator & Keputusan Validasi', false);
-        $response->assertSee('21 Parameter');
+        // Panel Kanan Accordion 19 Indikator
+        $response->assertSee('Daftar 19 Indikator & Keputusan Validasi', false);
+        $response->assertSee('19 Parameter');
 
         // Indikator 1
         $response->assertSee('1. REGULASI INOVASI DAERAH');
@@ -70,7 +70,7 @@ class EvaluatorVerifikasiTest extends TestCase
         $user = User::factory()->evaluator()->create();
 
         $response = $this->actingAs($user)->post(route('evaluator.verifikasi.simpan', 1), [
-            'catatan_pleno' => 'Seluruh 21 indikator telah ditelaah dan diverifikasi lengkap.',
+            'catatan_pleno' => 'Seluruh 19 indikator telah ditelaah dan diverifikasi lengkap.',
         ]);
 
         $response->assertRedirect(route('evaluator.antrean'));

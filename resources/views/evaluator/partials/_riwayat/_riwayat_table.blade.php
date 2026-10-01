@@ -7,7 +7,7 @@
                     <th class="py-4 px-5">Inovasi & Perangkat Daerah</th>
                     <th class="py-4 px-4 whitespace-nowrap">Tanggal Sidang & Nomor BA</th>
                     <th class="py-4 px-4 whitespace-nowrap">Ketua Verifikator</th>
-                    <th class="py-4 px-4 text-center whitespace-nowrap">Skor Total Final (Maks. 111)</th>
+                    <th class="py-4 px-4 text-center whitespace-nowrap">Skor Total Final (Maks. 106)</th>
                     <th class="py-4 px-4 text-center whitespace-nowrap">Status Kelulusan</th>
                     <th class="py-4 px-5 text-right whitespace-nowrap">Aksi</th>
                 </tr>
@@ -63,14 +63,14 @@
                             <p class="text-[10px] text-gray-400 font-mono">NIP. {{ $item['evaluator_nip'] }}</p>
                         </td>
 
-                        <!-- Skor Total Final (Maksimal 111) -->
+                        <!-- Skor Total Final (Maksimal 106) -->
                         <td class="py-4 px-4 align-top text-center whitespace-nowrap">
                             <div class="inline-flex flex-col items-center">
                                 <div class="flex items-baseline gap-1">
                                     <span class="text-lg font-black {{ $item['skor_final'] >= 88 ? 'text-emerald-700' : ($item['skor_final'] >= 67 ? 'text-blue-700' : 'text-amber-700') }}">
                                         {{ number_format($item['skor_final'], 1) }}
                                     </span>
-                                    <span class="text-[11px] font-bold text-gray-400">/ 111.0</span>
+                                    <span class="text-[11px] font-bold text-gray-400">/ 106.0</span>
                                 </div>
                                 <span class="text-[11px] font-semibold text-gray-500">
                                     {{ $item['persentase'] }}% Kematangan
@@ -107,7 +107,7 @@
                                 <a 
                                     href="{{ route('evaluator.riwayat.show', $item['id']) }}" 
                                     class="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl border border-gray-200 bg-white hover:bg-gray-50 text-gray-700 text-xs font-bold shadow-2xs transition-all"
-                                    title="Lihat Rincian 21 Indikator (Read-Only)"
+                                    title="Lihat Rincian 19 Indikator (Read-Only)"
                                 >
                                     <svg class="w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
@@ -154,6 +154,6 @@
             <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
             <span>Seluruh rekapitulasi penilaian telah disahkan melalui Berita Acara Pleno BRIDA</span>
         </span>
-        <span class="text-gray-400 font-mono text-[11px]">Skor Maksimal Standar: 111 Poin</span>
+        <span class="text-gray-400 font-mono text-[11px]">Skor Maksimal Standar: 106 Poin</span>
     </div>
 </div>

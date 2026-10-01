@@ -15,13 +15,13 @@
                             </span>
                             <div>
                                 <h2 class="text-xl font-bold text-gray-900">Tahap 5: Unggah Berkas Bukti Indikator BRIDA</h2>
-                                <p class="text-sm text-gray-500 mt-0.5">Lampirkan berkas bukti dukung (Format PDF, Maks. 20MB) pada 21 indikator evaluasi.</p>
+                                <p class="text-sm text-gray-500 mt-0.5">Lampirkan berkas bukti dukung (Format PDF, Maks. 20MB) pada 19 indikator evaluasi.</p>
                             </div>
                         </div>
 
                         <div class="flex items-center gap-2">
                             <span class="text-xs font-semibold px-3 py-1.5 rounded-xl bg-amber-50 text-amber-800 border border-amber-200">
-                                21 Parameter Evaluasi Kemendagri & BRIDA
+                                19 Parameter Evaluasi Kemendagri & BRIDA
                             </span>
                         </div>
                     </div>

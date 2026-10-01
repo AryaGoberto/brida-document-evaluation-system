@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sistem Evaluasi Inovasi Daerah — BRIDA Kota Makassar</title>
-    <meta name="description" content="Portal evaluasi terpadu kematangan inovasi daerah berbantuan AI BRIDA Kota Makassar. Penilaian 21 indikator resmi sesuai regulasi IGA Kemendagri.">
+    <meta name="description" content="Portal evaluasi terpadu kematangan inovasi daerah berbantuan AI BRIDA Kota Makassar. Penilaian 19 indikator resmi sesuai regulasi IGA Kemendagri.">
 
     <!-- Google Fonts: Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,7 +49,7 @@
                 <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-300">
                     <a href="#tentang" class="hover:text-white transition-colors">Tentang Sistem</a>
                     <a href="#alur" class="hover:text-white transition-colors">Alur 5 Tahap</a>
-                    <a href="#indikator" class="hover:text-white transition-colors">21 Indikator</a>
+                    <a href="#indikator" class="hover:text-white transition-colors">19 Indikator</a>
                     <a href="#ai-engine" class="hover:text-white transition-colors flex items-center gap-1.5">
                         <span>Model AI</span>
                         <span class="px-1.5 py-0.2 rounded text-[10px] bg-indigo-500/30 text-indigo-300 border border-indigo-500/40">OCR</span>
@@ -95,7 +95,7 @@
         <div x-show="mobileMenuOpen" x-cloak class="md:hidden bg-slate-900 border-b border-slate-800 px-4 pt-3 pb-6 space-y-3">
             <a href="#tentang" @click="mobileMenuOpen = false" class="block py-2 text-sm font-semibold text-slate-300 hover:text-white">Tentang Sistem</a>
             <a href="#alur" @click="mobileMenuOpen = false" class="block py-2 text-sm font-semibold text-slate-300 hover:text-white">Alur 5 Tahap</a>
-            <a href="#indikator" @click="mobileMenuOpen = false" class="block py-2 text-sm font-semibold text-slate-300 hover:text-white">21 Indikator Kematangan</a>
+            <a href="#indikator" @click="mobileMenuOpen = false" class="block py-2 text-sm font-semibold text-slate-300 hover:text-white">19 Indikator Kematangan</a>
             <a href="#ai-engine" @click="mobileMenuOpen = false" class="block py-2 text-sm font-semibold text-slate-300 hover:text-white">Model AI</a>
             <a href="#peran" @click="mobileMenuOpen = false" class="block py-2 text-sm font-semibold text-slate-300 hover:text-white">Akses Peran</a>
             <div class="pt-3 border-t border-slate-800 flex flex-col gap-2">
@@ -127,7 +127,7 @@
 
                 <!-- Subtitle / Deskripsi Singkat Projek -->
                 <p class="mt-6 text-base sm:text-lg lg:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-normal">
-                    Platform cerdas untuk pendataan, validasi berkas fisik berbantuan model AI, dan penetapan skor 21 indikator kematangan inovasi dari seluruh <strong>143 SKPD, Puskesmas, dan Kecamatan</strong> di Pemerintah Kota Makassar.
+                    Platform cerdas untuk pendataan, validasi berkas fisik berbantuan model AI, dan penetapan skor 19 indikator kematangan inovasi dari seluruh <strong>143 SKPD, Puskesmas, dan Kecamatan</strong> di Pemerintah Kota Makassar.
                 </p>
 
                 <!-- Tombol CTA Masuk Sesuai Role -->
@@ -169,7 +169,7 @@
                     </div>
 
                     <div class="p-5 rounded-2xl bg-slate-800/50 backdrop-blur border border-slate-800">
-                        <div class="text-3xl lg:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-300">111</div>
+                        <div class="text-3xl lg:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-300">106</div>
                         <div class="text-xs uppercase font-bold tracking-wider text-slate-400 mt-1">Skor Maksimal Sidang</div>
                         <p class="text-[11px] text-slate-500 mt-0.5">Predikat Sangat Inovatif &amp; Lolos IGA</p>
                     </div>
@@ -262,7 +262,7 @@
                             <!-- Sisi Kanan Mockup: 20 Indikator Accordion -->
                             <div class="p-4 rounded-xl bg-slate-800/90 border border-slate-700/80 space-y-3">
                                 <div class="flex items-center justify-between text-[11px] text-slate-400">
-                                    <span class="font-semibold text-white">⚖️ 21 Indikator (Kanan)</span>
+                                    <span class="font-semibold text-white">⚖️ 19 Indikator (Kanan)</span>
                                     <span class="bg-emerald-900/60 text-emerald-300 px-1.5 py-0.5 rounded text-[10px]">AI Star Rating</span>
                                 </div>
                                 <div class="bg-slate-950 p-3 rounded-lg border border-slate-800 space-y-1.5">
@@ -279,7 +279,7 @@
                         <!-- Footer Mockup Card -->
                         <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
                             <span>Keluaran: <strong>Berita Acara Resmi Sidang Pleno</strong></span>
-                            <span class="text-emerald-400 font-bold">Skor Final: 105 / 111</span>
+                            <span class="text-emerald-400 font-bold">Skor Final: 105 / 106</span>
                         </div>
                     </div>
                 </div>
@@ -413,7 +413,7 @@
                         <span class="w-8 h-8 rounded-lg bg-emerald-600 text-white font-extrabold text-sm flex items-center justify-center">5</span>
                         <span class="text-[10px] font-bold text-emerald-600 uppercase tracking-wider">Tahap 5</span>
                     </div>
-                    <h4 class="font-bold text-slate-900 text-sm mb-1">Upload 21 Indikator</h4>
+                    <h4 class="font-bold text-slate-900 text-sm mb-1">Upload 19 Indikator</h4>
                     <p class="text-slate-500 text-xs">Pengunggahan berkas bukti PDF per indikator dan persetujuan pakta integritas resmi.</p>
                 </div>
 
@@ -421,20 +421,20 @@
         </div>
     </section>
 
-    <!-- SECTION: 21 INDIKATOR KEMATANGAN INOVASI DAERAH -->
+    <!-- SECTION: 19 INDIKATOR KEMATANGAN INOVASI DAERAH -->
     <section id="indikator" class="py-20 lg:py-28 bg-slate-900 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="text-xs font-bold text-blue-400 uppercase tracking-wider bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">Rubrik Resmi Kemendagri &amp; BRIDA</span>
                 <h2 class="text-3xl sm:text-4xl font-black text-white mt-3 tracking-tight">
-                    21 Indikator Kematangan Inovasi Daerah
+                    19 Indikator Kematangan Inovasi Daerah
                 </h2>
                 <p class="text-slate-400 text-sm sm:text-base mt-3">
-                    Setiap indikator memiliki bobot resmi mulai dari 1.0 hingga 4.0 dengan total kalkulasi skor maksimal 111 poin.
+                    Setiap indikator memiliki bobot resmi mulai dari 1.0 hingga 4.0 dengan total kalkulasi skor maksimal 106 poin.
                 </p>
             </div>
 
-            <!-- Grid 21 Indikator Ringkas -->
+            <!-- Grid 19 Indikator Ringkas -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 @php
                     $indikatorList = [
@@ -628,7 +628,7 @@
                 <div class="flex items-center gap-6 text-xs text-slate-500">
                     <a href="#tentang" class="hover:text-slate-300 transition-colors">Tentang</a>
                     <a href="#alur" class="hover:text-slate-300 transition-colors">Alur 5 Tahap</a>
-                    <a href="#indikator" class="hover:text-slate-300 transition-colors">21 Indikator</a>
+                    <a href="#indikator" class="hover:text-slate-300 transition-colors">19 Indikator</a>
                     <a href="{{ route('login') }}" class="hover:text-slate-300 transition-colors">Masuk Sistem</a>
                 </div>
             </div>

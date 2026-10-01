@@ -120,7 +120,7 @@
                     <th class="py-2 px-3 border-r border-gray-300">Nama Inovasi & Perangkat Daerah (OPD)</th>
                     <th class="py-2 px-2 border-r border-gray-300 w-28">Kategori</th>
                     <th class="py-2 px-2 border-r border-gray-300 text-center w-20">Tgl Sidang</th>
-                    <th class="py-2 px-2 border-r border-gray-300 text-center w-24">Skor Final (/111)</th>
+                    <th class="py-2 px-2 border-r border-gray-300 text-center w-24">Skor Final (/106)</th>
                     <th class="py-2 px-2 border-r border-gray-300 text-center w-16">Kematangan</th>
                     <th class="py-2 px-2 border-r border-gray-300 text-center w-28">Status Kelulusan</th>
                     <th class="py-2 px-2 text-center w-36">Nomor Berita Acara</th>

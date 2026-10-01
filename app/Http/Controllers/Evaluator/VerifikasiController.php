@@ -20,7 +20,7 @@ class VerifikasiController extends Controller
      */
     public function show(int $id, Request $request): View
     {
-        // Dataset master 21 indikator dengan bobot resmi BRIDA
+        // Dataset master 19 indikator dengan bobot resmi BRIDA
         $masterIndikator = InovasiController::getBobotIndikatorList();
 
         // Dataset inovasi contoh realistis
@@ -96,7 +96,7 @@ class VerifikasiController extends Controller
             ];
         }
 
-        // Hasil analisis AI & bukti dukung LLM untuk masing-masing 21 indikator
+        // Hasil analisis AI & bukti dukung LLM untuk masing-masing 19 indikator
         $evidenceKlaim = [
             1 => [
                 'bintang' => 3,

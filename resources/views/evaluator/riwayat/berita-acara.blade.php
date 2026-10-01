@@ -139,10 +139,10 @@
             </tbody>
         </table>
 
-        <!-- HASIL REKAPITULASI PENILAIAN 21 INDIKATOR -->
+        <!-- HASIL REKAPITULASI PENILAIAN 19 INDIKATOR -->
         <div class="mb-4">
             <h4 class="text-xs font-bold uppercase tracking-wider text-gray-800 mb-2">
-                A. Rekapitulasi Rincian 21 Indikator Satuan
+                A. Rekapitulasi Rincian 19 Indikator Satuan
             </h4>
             <table class="w-full text-left text-[11px] border border-gray-300">
                 <thead class="bg-gray-100 font-bold text-gray-700 border-b border-gray-300">
@@ -185,7 +185,7 @@
             <div class="p-3 bg-gray-50 rounded-xl border border-gray-300 text-xs space-y-2">
                 <div class="flex items-center gap-2">
                     <span class="font-bold text-gray-700">Skor Total Akhir:</span>
-                    <span class="font-black text-sm text-gray-900">{{ number_format($inovasi['skor_final'], 1) }} / 111.0</span>
+                    <span class="font-black text-sm text-gray-900">{{ number_format($inovasi['skor_final'], 1) }} / 106.0</span>
                     <span class="text-gray-500">({{ $inovasi['persentase'] }}% Indeks Kematangan)</span>
                 </div>
                 <div class="flex items-center gap-2">

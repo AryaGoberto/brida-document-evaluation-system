@@ -82,7 +82,7 @@ class AntreanController extends Controller
                     'status_code'       => 'butuh_validasi',
                     'ai_score'          => 87.5,
                     'ai_predikat'       => 'Sangat Inovatif',
-                    'catatan_ai'        => 'Ekstraksi 21 indikator sukses 100%. TTE SK Walikota terdeteksi valid.',
+                    'catatan_ai'        => 'Ekstraksi 19 indikator sukses 100%. TTE SK Walikota terdeteksi valid.',
                     'progress_ocr'      => 100,
                     'bisa_diverifikasi' => true,
                 ],

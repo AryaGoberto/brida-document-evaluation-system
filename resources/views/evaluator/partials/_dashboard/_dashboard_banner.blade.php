@@ -11,7 +11,7 @@
                 Dasbor Evaluasi Inovasi
             </h1>
             <p class="text-slate-300 text-sm sm:text-base max-w-2xl leading-relaxed">
-                Pantau antrean pengajuan inovasi OPD, telaah analisis rekomendasi AI, dan lakukan verifikasi penilaian 21 indikator secara objektif.
+                Pantau antrean pengajuan inovasi OPD, telaah analisis rekomendasi AI, dan lakukan verifikasi penilaian 19 indikator secara objektif.
             </p>
         </div>
         <div class="flex flex-wrap items-center gap-3">

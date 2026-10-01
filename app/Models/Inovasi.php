@@ -92,7 +92,7 @@ class Inovasi extends Model
         return $this->berkas();
     }
 
-    /** Relasi: Penilaian 21 indikator (AI & Evaluator) */
+    /** Relasi: Penilaian 19 indikator (AI & Evaluator) */
     public function penilaian(): HasMany
     {
         return $this->hasMany(PenilaianIndikator::class, 'inovasi_id');

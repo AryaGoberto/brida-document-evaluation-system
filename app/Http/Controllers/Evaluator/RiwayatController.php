@@ -32,7 +32,7 @@ class RiwayatController extends Controller
                     'evaluator_nip'     => '197508121998031004',
                     'evaluator_anggota' => 'Andi Syahrir, S.Kom., M.T',
                     'skor_final'        => 105.0,
-                    'skor_maksimal'     => 111.0,
+                    'skor_maksimal'     => 106.0,
                     'persentase'        => 94.6,
                     'status_kelulusan'  => 'Sangat Inovatif',
                     'rekomendasi'       => 'Direkomendasikan mewakili Kota Makassar dalam ajang Innovative Government Award (IGA) Kemendagri 2026.',
@@ -44,7 +44,7 @@ class RiwayatController extends Controller
         $dataset = [];
         foreach ($selesaiList as $item) {
             $skorFinal = (float) ($item->skor_final ?? 95.0);
-            $persentase = round(($skorFinal / 111.0) * 100, 1);
+            $persentase = round(($skorFinal / 106.0) * 100, 1);
             $dataset[$item->id] = [
                 'id'                => $item->id,
                 'kode'              => $item->kode_registrasi,
@@ -58,7 +58,7 @@ class RiwayatController extends Controller
                 'evaluator_nip'     => '197508121998031004',
                 'evaluator_anggota' => $item->evaluator_anggota ?? 'Andi Syahrir, S.Kom., M.T',
                 'skor_final'        => $skorFinal,
-                'skor_maksimal'     => 111.0,
+                'skor_maksimal'     => 106.0,
                 'persentase'        => $persentase,
                 'status_kelulusan'  => $item->status_kelulusan ?? ($skorFinal >= 90 ? 'Sangat Inovatif' : 'Inovatif'),
                 'rekomendasi'       => $item->rekomendasi_final ?? 'Direkomendasikan mewakili Kota Makassar dalam ajang Innovative Government Award (IGA) Kemendagri 2026.',
@@ -84,7 +84,7 @@ class RiwayatController extends Controller
                 'inovatif'        => 18,
                 'perlu_perbaikan' => 4,
                 'rata_rata_skor'  => 95.4,
-                'skor_maksimal'   => 111.0,
+                'skor_maksimal'   => 106.0,
             ];
         } else {
             $summary = [
@@ -93,7 +93,7 @@ class RiwayatController extends Controller
                 'inovatif'        => Inovasi::where('status', 'selesai')->where('status_kelulusan', 'Inovatif')->count(),
                 'perlu_perbaikan' => Inovasi::where('status', 'selesai')->where('status_kelulusan', 'Perlu Perbaikan')->count(),
                 'rata_rata_skor'  => round(Inovasi::where('status', 'selesai')->avg('skor_final') ?? 95.4, 1),
-                'skor_maksimal'   => 111.0,
+                'skor_maksimal'   => 106.0,
             ];
         }
 
@@ -110,7 +110,7 @@ class RiwayatController extends Controller
 
         $masterIndikator = InovasiController::getBobotIndikatorList();
 
-        // Rincian 21 indikator dalam mode read-only
+        // Rincian 19 indikator dalam mode read-only
         $rincianIndikator = [];
         $totalSkor = 0;
         $totalMaks = 0;

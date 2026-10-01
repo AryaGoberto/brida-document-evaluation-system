@@ -10,7 +10,7 @@ use Illuminate\View\View;
 class InovasiController extends Controller
 {
     /**
-     * Data master 21 indikator dengan bobot standar evaluasi BRIDA & Kemendagri
+     * Data master 19 indikator dengan bobot standar evaluasi BRIDA & Kemendagri
      */
     public static function getBobotIndikatorList(): array
     {
@@ -32,10 +32,8 @@ class InovasiController extends Controller
             15 => ['no' => 15, 'judul' => '15. ALAT KERJA', 'bobot' => 2.0],
             16 => ['no' => 16, 'judul' => '16. KEMANFAATAN INOVASI DAERAH', 'bobot' => 3.0],
             17 => ['no' => 17, 'judul' => '17. KECEPATAN PENCIPTAAN INOVASI DAERAH', 'bobot' => 2.0],
-            18 => ['no' => 18, 'judul' => '18. Kepuasan Pengguna (Survei SKM)', 'bobot' => 1.0],
-            19 => ['no' => 19, 'judul' => '19. PENYELESAIAN LAYANAN PENGADUAN', 'bobot' => 2.0],
-            20 => ['no' => 20, 'judul' => '20. MONITORING & EVALUASI INOVASI DAERAH', 'bobot' => 2.0],
-            21 => ['no' => 21, 'judul' => '21. KUALITAS INOVASI DAERAH', 'bobot' => 4.0],
+            18 => ['no' => 18, 'judul' => '18. PENYELESAIAN LAYANAN PENGADUAN', 'bobot' => 2.0],
+            19 => ['no' => 19, 'judul' => '19. MONITORING & EVALUASI INOVASI DAERAH', 'bobot' => 2.0],
         ];
     }
 
@@ -140,7 +138,7 @@ class InovasiController extends Controller
             ],
         ];
 
-        // Master 21 indikator dengan bobot
+        // Master 19 indikator dengan bobot
         $masterIndikator = self::getBobotIndikatorList();
 
         $totalSkor = 0;

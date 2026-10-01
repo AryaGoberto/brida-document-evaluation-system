@@ -66,7 +66,7 @@
                             </span>
                         </div>
                         <p class="text-xs text-slate-300 mt-0.5">
-                            Seluruh 21 indikator telah disahkan oleh tim verifikator BRIDA. Formulir ini bersifat arsip tetap (read-only) untuk menjamin integritas data penilaian daerah.
+                            Seluruh 19 indikator telah disahkan oleh tim verifikator BRIDA. Formulir ini bersifat arsip tetap (read-only) untuk menjamin integritas data penilaian daerah.
                         </p>
                     </div>
                 </div>
@@ -129,13 +129,13 @@
                 <div class="bg-gradient-to-br from-white to-blue-50/50 rounded-3xl border border-blue-200 shadow-sm p-6 flex flex-col justify-between space-y-6">
                     <div>
                         <span class="text-xs font-bold text-blue-900 uppercase tracking-wider block">
-                            Skor Total Final (Maks. 111)
+                            Skor Total Final (Maks. 106)
                         </span>
                         <div class="mt-3 flex items-baseline gap-2">
                             <span class="text-5xl font-black tracking-tight {{ $inovasi['skor_final'] >= 88 ? 'text-emerald-700' : ($inovasi['skor_final'] >= 67 ? 'text-blue-700' : 'text-amber-700') }}">
                                 {{ number_format($inovasi['skor_final'], 1) }}
                             </span>
-                            <span class="text-lg font-bold text-gray-400">/ 111.0</span>
+                            <span class="text-lg font-bold text-gray-400">/ 106.0</span>
                         </div>
                         <div class="mt-2 text-xs font-semibold text-gray-600">
                             Tingkat Kematangan: <span class="font-bold text-gray-900">{{ $inovasi['persentase'] }}%</span>
@@ -183,12 +183,12 @@
 
             </div>
 
-            <!-- TABEL RINCIAN 21 INDIKATOR READ-ONLY -->
+            <!-- TABEL RINCIAN 19 INDIKATOR READ-ONLY -->
             <div class="bg-white rounded-3xl border border-gray-200/80 shadow-sm overflow-hidden">
                 <div class="p-5 sm:p-6 border-b border-gray-100 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
                     <div>
                         <h3 class="text-lg font-black text-gray-900">
-                            Rincian Penilaian 21 Indikator
+                            Rincian Penilaian 19 Indikator
                         </h3>
                         <p class="text-xs text-gray-500 mt-0.5">
                             Rincian bobot, capaian bintang, dan kalkulasi poin final per indikator satuan.
@@ -274,7 +274,7 @@
                                     {{ number_format($totalSkor, 1) }} / {{ number_format($totalMaks, 1) }}
                                 </td>
                                 <td class="py-4 px-5 text-xs text-gray-600">
-                                    Skor Maksimal 111.0 (21 Indikator)
+                                    Skor Maksimal 106.0 (19 Indikator)
                                 </td>
                             </tr>
                         </tfoot>

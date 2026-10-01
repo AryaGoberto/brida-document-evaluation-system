@@ -35,7 +35,7 @@ class EvaluatorRiwayatTest extends TestCase
         $response->assertSee('Dinas Pariwisata Kota Makassar', false);
         $response->assertSee('BA.01/BRIDA/MKS/IX/2026', false);
         $response->assertSee('105.0', false);
-        $response->assertSee('/ 111.0', false);
+        $response->assertSee('/ 106.0', false);
 
         // Tombol Aksi Detail & Cetak BA
         $response->assertSee('Detail');
@@ -53,13 +53,13 @@ class EvaluatorRiwayatTest extends TestCase
         // Tampilan Read-Only
         $response->assertSee('Detail Penilaian Akhir', false);
         $response->assertSee('Mode Read-Only (Terkunci)', false);
-        $response->assertSee('Seluruh 21 indikator telah disahkan oleh tim verifikator BRIDA', false);
+        $response->assertSee('Seluruh 19 indikator telah disahkan oleh tim verifikator BRIDA', false);
         $response->assertSee('105.0', false);
-        $response->assertSee('/ 111.0', false);
+        $response->assertSee('/ 106.0', false);
         $response->assertSee('Sangat Inovatif', false);
 
-        // Rincian 21 Indikator
-        $response->assertSee('Rincian Penilaian 21 Indikator', false);
+        // Rincian 19 Indikator
+        $response->assertSee('Rincian Penilaian 19 Indikator', false);
         $response->assertSee('REGULASI INOVASI DAERAH', false);
         $response->assertSee('KEMANFAATAN INOVASI', false);
         $response->assertSee('Kembali ke Riwayat', false);

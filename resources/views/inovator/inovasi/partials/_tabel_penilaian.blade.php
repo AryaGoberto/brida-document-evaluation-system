@@ -1,4 +1,4 @@
-<!-- TABEL HASIL PENILAIAN (21 INDIKATOR BRIDA) -->
+<!-- TABEL HASIL PENILAIAN (19 INDIKATOR BRIDA) -->
 <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
     <div class="p-6 border-b border-gray-100 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>
@@ -6,7 +6,7 @@
                 <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
-                Tabel Hasil Penilaian (21 Indikator BRIDA)
+                Tabel Hasil Penilaian (19 Indikator BRIDA)
             </h3>
             <p class="text-xs sm:text-sm text-gray-500 mt-0.5">
                 Rincian keputusan nilai bintang yang didapat beserta rumus perhitungan skor akhir: <strong>Bintang × Bobot</strong>.

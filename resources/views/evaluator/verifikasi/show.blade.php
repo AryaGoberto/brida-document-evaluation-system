@@ -112,7 +112,7 @@
             <!-- Panel Kiri: PDF Viewer & Simulasi Kertas Dokumen -->
             @include('evaluator.partials._verifikasi._verifikasi_pdf_viewer')
 
-            <!-- Panel Kanan: Daftar 21 Indikator & Keputusan Validasi -->
+            <!-- Panel Kanan: Daftar 19 Indikator & Keputusan Validasi -->
             @include('evaluator.partials._verifikasi._verifikasi_indicators_panel')
         </div>
 

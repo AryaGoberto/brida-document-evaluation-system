@@ -210,16 +210,7 @@ class PengajuanInovasiController extends Controller
             ],
             [
                 'no' => 18,
-                'judul' => '18. Kepuasan Pengguna (Survei SKM)',
-                'panduan' => [
-                    'star1' => 'INOVASI DAPAT DICIPTAKAN DALAM WAKTU 1-4 BULAN',
-                    'star2' => 'INOVASI DAPAT DICIPTAKAN DALAM WAKTU 5-8 BULAN',
-                    'star3' => 'INOVASI DAPAT DICIPTAKAN DALAM WAKTU 9 BULAN KEATAS',
-                ],
-            ],
-            [
-                'no' => 19,
-                'judul' => '19. PENYELESAIAN LAYANAN PENGADUAN',
+                'judul' => '18. PENYELESAIAN LAYANAN PENGADUAN',
                 'panduan' => [
                     'star1' => '≥ 86%',
                     'star2' => '51% S.D. 85%',
@@ -227,21 +218,12 @@ class PengajuanInovasiController extends Controller
                 ],
             ],
             [
-                'no' => 20,
-                'judul' => '20. MONITORING & EVALUASI INOVASI DAERAH',
+                'no' => 19,
+                'judul' => '19. MONITORING & EVALUASI INOVASI DAERAH',
                 'panduan' => [
                     'star1' => 'Hasil laporan monev eksternal berdasarkan hasil penelitian/kajian/analisis',
                     'star2' => 'Hasil pengukuran kepuasaan pengguna dari evaluasi Survei Kepuasan Masyarakat ',
                     'star3' => 'Hasil laporan monev internal perangkat daerah',
-                ],
-            ],
-            [
-                'no' => 21,
-                'judul' => '21. KUALITAS INOVASI DAERAH',
-                'panduan' => [
-                    'star1' => 'Memenuhi 5 unsur substansi',
-                    'star2' => 'Memenuhi 3 atau 4 unsur substansi',
-                    'star3' => 'Memenuhi 1 atau 2 unsur substansi',
                 ],
             ],
         ];
@@ -641,7 +623,7 @@ class PengajuanInovasiController extends Controller
             'skor_ai_total'       => 85.5,
             'predikat_ai'         => 'Sangat Inovatif',
             'progress_ocr'        => 100,
-            'catatan_ai'          => 'Ekstraksi 21 indikator sukses 100%. Berkas siap divalidasi evaluator.',
+            'catatan_ai'          => 'Ekstraksi 19 indikator sukses 100%. Berkas siap divalidasi evaluator.',
             'submitted_at'        => now(),
         ]);
 
@@ -668,7 +650,7 @@ class PengajuanInovasiController extends Controller
                 'nama_indikator'     => $info['judul'],
                 'bobot'              => $bobot,
                 'skor_ai_bintang'    => 3,
-                'poin_ai'            => round(3 * $bobot * (111 / 63), 1),
+                'poin_ai'            => round(3 * $bobot * (106 / 63), 1),
                 'ringkasan_ai'       => 'Dokumen ' . $info['judul'] . ' berhasil dianalisis AI dan memenuhi kriteria regulasi.',
                 'confidence_score'   => 95.0,
                 'status_validasi_ai' => 'Rekomendasi Setuju',

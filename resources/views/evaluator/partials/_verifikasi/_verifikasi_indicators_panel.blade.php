@@ -1,5 +1,5 @@
 <!-- ============================================================ -->
-<!-- PANEL KANAN (ACCORDION 21 INDIKATOR & FORMULIR KEPUTUSAN) -->
+<!-- PANEL KANAN (ACCORDION 19 INDIKATOR & FORMULIR KEPUTUSAN) -->
 <!-- ============================================================ -->
 <section class="lg:w-1/2 flex flex-col bg-white h-full overflow-hidden border-l border-gray-200">
     
@@ -7,9 +7,9 @@
     <div class="p-4 sm:p-5 border-b border-gray-200 bg-gray-50/80 flex items-center justify-between flex-shrink-0">
         <div>
             <h2 class="text-sm font-bold text-gray-900 flex items-center gap-2">
-                <span>Daftar 21 Indikator & Keputusan Validasi</span>
+                <span>Daftar 19 Indikator & Keputusan Validasi</span>
                 <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-blue-100 text-blue-800">
-                    21 Parameter
+                    19 Parameter
                 </span>
             </h2>
             <p class="text-xs text-gray-500 mt-0.5">
@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <!-- Scrollable Accordion List (21 Indikator) -->
+    <!-- Scrollable Accordion List (19 Indikator) -->
     <div class="flex-1 overflow-y-auto p-4 sm:p-5 space-y-3 custom-scrollbar">
         <template x-for="(item, key) in indicators" :key="key">
             <div 
@@ -260,7 +260,7 @@
     <div class="p-3.5 bg-gray-50 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500 flex-shrink-0">
         <span class="flex items-center gap-1.5">
             <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-            <span>Total 21 Indikator Siap Disahkan</span>
+            <span>Total 19 Indikator Siap Disahkan</span>
         </span>
         <button 
             type="button"

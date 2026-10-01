@@ -13,7 +13,7 @@
             </span>
         </h1>
         <p class="text-sm text-gray-500 mt-1 max-w-3xl">
-            Daftar seluruh dokumen inovasi yang telah selesai diverifikasi dan dikunci oleh tim evaluator. Skor dinilai dari 21 indikator dengan skala <strong>skor maksimal 111</strong>.
+            Daftar seluruh dokumen inovasi yang telah selesai diverifikasi dan dikunci oleh tim evaluator. Skor dinilai dari 19 indikator dengan skala <strong>skor maksimal 106</strong>.
         </p>
     </div>
 

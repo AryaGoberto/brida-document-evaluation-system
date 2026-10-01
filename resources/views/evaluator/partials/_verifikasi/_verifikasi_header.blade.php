@@ -66,7 +66,7 @@
             <div class="hidden md:flex flex-col text-right">
                 <span class="text-[10px] text-gray-500 font-medium uppercase tracking-wider">Status Telaah</span>
                 <span class="text-xs font-bold text-gray-800 mt-0.5">
-                    <span class="text-blue-600" x-text="getJumlahDitelaah()"></span> / 21 Indikator
+                    <span class="text-blue-600" x-text="getJumlahDitelaah()"></span> / 19 Indikator
                 </span>
             </div>
 

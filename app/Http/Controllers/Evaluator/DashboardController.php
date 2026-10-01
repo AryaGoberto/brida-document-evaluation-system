@@ -36,7 +36,7 @@ class DashboardController extends Controller
             'sedang_proses_ai' => [
                 'count'   => $countProsesAi,
                 'label'   => 'Sedang Diproses AI',
-                'subtext' => 'Analisis OCR & bukti 21 indikator',
+                'subtext' => 'Analisis OCR & bukti 19 indikator',
                 'trend'   => 'neutral',
                 'badge'   => 'Otomasi Berjalan',
                 'color'   => 'indigo',
@@ -80,7 +80,7 @@ class DashboardController extends Controller
                         'skor'               => 87.5,
                         'predikat'           => 'Sangat Inovatif',
                         'probabilitas_valid' => 98.2,
-                        'catatan'            => 'Berkas 21 indikator lengkap. TTE dan SK Walikota terverifikasi valid.',
+                        'catatan'            => 'Berkas 19 indikator lengkap. TTE dan SK Walikota terverifikasi valid.',
                         'status_ai'          => 'Selesai',
                     ],
                 ],
@@ -133,7 +133,7 @@ class DashboardController extends Controller
                 'aksi'      => 'Menyetujui telaah',
                 'inovasi'   => 'Sistem Antrean Puskesmas Digital (SAPA Sehat)',
                 'waktu'     => '15 menit lalu',
-                'skor'      => '87.5 / 111',
+                'skor'      => '87.5 / 106',
             ],
             [
                 'tipe'      => 'revision',
@@ -141,15 +141,15 @@ class DashboardController extends Controller
                 'aksi'      => 'Meminta perbaikan dokumen',
                 'inovasi'   => 'Sistem Pengaduan Kebersihan Lingkungan (SIPASSA)',
                 'waktu'     => '1 jam lalu',
-                'skor'      => '74.0 / 111',
+                'skor'      => '74.0 / 106',
             ],
             [
                 'tipe'      => 'inspect',
                 'evaluator' => 'Sistem AI BRIDA',
-                'aksi'      => 'Selesai analisis OCR 21 indikator',
+                'aksi'      => 'Selesai analisis OCR 19 indikator',
                 'inovasi'   => 'E-Tax Retribusi Pasar Tradisional Digital',
                 'waktu'     => '2 jam lalu',
-                'skor'      => '88.0 / 111',
+                'skor'      => '88.0 / 106',
             ],
         ];
 

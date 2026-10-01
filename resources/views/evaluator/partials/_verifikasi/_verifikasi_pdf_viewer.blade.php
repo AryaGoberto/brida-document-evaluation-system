@@ -169,7 +169,7 @@
                 <div class="space-y-4 text-xs leading-relaxed text-gray-800 text-justify font-serif">
                     
                     <p class="indent-6">
-                        Menindaklanjuti ketentuan Pedoman Teknis Indeks Inovasi Daerah (IGA) Kemendagri serta Peraturan Walikota Makassar perihal pemenuhan standar 21 indikator kematangan inovasi daerah Kota Makassar.
+                        Menindaklanjuti ketentuan Pedoman Teknis Indeks Inovasi Daerah (IGA) Kemendagri serta Peraturan Walikota Makassar perihal pemenuhan standar 19 indikator kematangan inovasi daerah Kota Makassar.
                     </p>
 
                     <div class="space-y-1">

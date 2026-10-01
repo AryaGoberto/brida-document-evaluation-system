@@ -8,7 +8,7 @@
             <span class="text-3xl font-black text-gray-900">{{ $summary['total_selesai'] }}</span>
             <span class="text-xs text-gray-400">Dokumen</span>
         </div>
-        <span class="text-[11px] text-gray-500 mt-2 block">Seluruh 21 indikator terkunci sah</span>
+        <span class="text-[11px] text-gray-500 mt-2 block">Seluruh 19 indikator terkunci sah</span>
     </div>
 
     <!-- 2. Sangat Inovatif (Lolos IGA) -->
@@ -19,7 +19,7 @@
                 <div class="text-3xl font-black text-emerald-700 mt-2">{{ $summary['sangat_inovatif'] }}</div>
             </div>
             <span class="px-2 py-1 rounded-lg bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200">
-                Skor &gt; 88 / 111
+                Skor &gt; 88 / 106
             </span>
         </div>
         <span class="text-[11px] text-emerald-600 mt-2 block font-medium">Rekomendasi Utama Kemendagri</span>
