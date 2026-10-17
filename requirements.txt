@@ -1,0 +1,7 @@
+--extra-index-url https://www.paddlepaddle.org.cn/packages/stable/cu118/
+paddlepaddle-gpu
+paddleocr
+pymupdf
+unstructured[pdf,image]
+unstructured-paddleocr
+pandas

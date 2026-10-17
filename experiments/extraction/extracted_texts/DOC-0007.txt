@@ -1,0 +1,2718 @@
+ARKAS
+UPT SPF
+SD INPRES TALLO TUA 2
+TA 2025
+KERTAS KERJA RENCANA KEGIATAN DAN ANGGARAN SEKOLAH (RKAS) PER TAHAP
+TAHUN ANGGARAN : 2025
+NPSN
+:40314013
+Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Alamat
+JI. Sultan Abdullah I No. 16, Kec. Tallo
+Kabupaten
+Kota Makassar
+Provinsi
+: Prov. Sulawesi Selatan
+Tahap
+: I dan II
+A. PENERIMAAN
+Sumber Dana :
+No. Kode
+Penerimaan
+Jumlah
+4.3.1.01.
+BOSP Reguler
+360.900.000
+Total Penerimaan
+360.900.000
+B. BELANJA
+No.
+Kode
+Kode
+Rincian Perhitungan
+Tahap
+Rekening
+Uraian
+Jumlah
+Urut
+Program
+Volume
+Satuan
+Tarif Harga
+1
+2
+1.
+02.
+Pengembangan Standar Isi
+4.230.000
+630.000
+3.600.000
+2.
+02.03.
+Pelaksanaan Kegiatan Pembelajaran dan Ekstrakurikuler
+4.130.000
+630.000
+3.500.000
+3.
+02.03.01.Penyusunan Kurikulum
+4.130.000
+630.000
+3.500.000
+4.
+5.1.02.01.0102.03.01.Pelatihan Kegiatan Penyusunan KOSP s
+1paket
+3500000
+3.500.000
+0
+3.500.000
+0036
+5.
+5.1.02.01.0102.03.01.Rapat Penyusunan KOSP, Persiapan PTS, E-Kinerja PMM
+18
+dus
+35000
+630.000
+630.000
+0
+0052
+6.
+02.06.
+Pengembangan Profesi Pendidik dan Tenaga Kependidikan
+100.000
+0
+100.000
+7.
+02.06.01.Kegiatan diskusi kolaborasi pengembangan RPP dalam
+100.000
+0
+100.000
+Komunitas Belajar (termasuk KKG/MGMP/MGMPS/MGPMPK)
+8.
+5.1.02.04.0102.06.01.
+Biaya Transport dalam Daerah-Wilayah Kota
+2
+orang /
+50000
+100.000
+0
+100.000
+0003
+hari
+9.
+03.
+Standar Proses
+94.745.400
+50.734.500
+44.010.900
+Halaman 1 dari 16
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+No.
+Kode
+Rinclan Perhitungan
+Kode
+Tahap
+Rekening
+Uraian
+Urut
+Jumlah
+Program
+Volume
+Satuan
+Tarif Harga
+1
+2
+10.
+03.01.
+Penerimaan Peserta Didik Baru
+13.347.480
+800.000
+12.547.480
+11.
+03.01.01.
+Pelaksanaan Pendaftaran Peserta Didik Baru (PPDB)
+9.017.480
+800.000
+8.217.480
+12.
+5.1.02.01.0103.01.01.
+Kertas HVS 80 gram Merk : Sidu A4
+5
+rim
+55000
+275.000
+0
+275.000
+0024
+13.
+5.1.02.01.01
+03.01.01.
+Ballpoint
+3
+dus
+32000
+96.000
+0
+96.000
+0024
+14.
+5.1.02.01.01
+03.01.01.
+Tinta Refill Printer
+4buah
+200000
+800.000
+800.000
+0
+0024
+15.
+5.1.02.01.01
+03.01.01.
+Spanduk-Spanduk
+1buah
+286480
+286.480
+0
+286.480
+0026
+16.
+5.1.02.01.01
+03.01.01.Komsumsi Kegiatan SPMB (PPDB)
+84orang /
+40000
+3.360.000
+0
+3.360.000
+0052
+hari
+17.
+5.1.02.04.01
+03.01.01.
+Biaya Transport dalam Daerah-Wilayah Kecamatan
+84
+orang /
+50000
+4.200.000
+0
+4.200.000
+0003
+hari
+18.
+03.01.02.
+Pendataan ulang bagi Peserta Didik lama
+3.630.000
+0
+3.630.000
+19.
+5.1.02.01.0103.01.02.
+Pembayaran foto cuci cetak siswa kelas 1
+57
+orang
+30000
+1.710.000
+0
+1.710.000
+0012
+20.
+5.1.02.01.0103.01.02.
+Bayar Biaya Foto,Cuci,dan Cetak Kelas 1
+64
+orang
+30000
+1.920.000
+0
+1.920.000
+0012
+21.
+03.01.03.
+Pelaksanaan kegiatan orientasi siswa baru yang bersifat akademik
+700.000
+0
+700.000
+dan pengenalan lingkungan tanpa kekerasan
+22.
+5.1.02.01.0103.01.03.Rapat Pembagian Tugas dan Persiapan MPLS
+20dus
+35000
+700.000
+0
+700.000
+0052
+23.
+03.02.
+Pengembangan Perpustakaan
+926.990
+0
+926.990
+24.
+03.02.03.
+Penyediaan atau pembiayaan langganan platform perpustakaan
+926.990
+0
+926.990
+digital
+25.
+5.1.02.01.0103.02.03.Kegiatan Pengembangan Perpustakaan
+1paket
+300000
+300.000
+0
+300.000
+0012
+26.
+5.1.02.03.05
+03.02.03.
+Pembelian Alat Pemeliharaan Perpustakaan Digital Platform
+1paket
+626990
+626.990
+0
+626.990
+0001
+27.
+03.03.
+Pelaksanaan Kegiatan Pembelajaran dan Ekstrakurikuler
+80.170.930
+49.634.500
+30.536.430
+28.
+03.03.02.
+Pengembangan Kegiatan Literasi dan Numerasi
+1.000.000
+0
+1.000.000
+29.
+5.1.02.01.0103.03.02.
+Kegiatan Peningkatan Literasi Numerasi Peserta didik
+1 paket
+1000000
+1.000.000
+0
+1.000.000
+0012
+30.
+03.03.04.
+Pengembangan pembelajaran berbasis projek (termasuk P5)
+19.224.000
+15.252.000
+3.972.000
+31.
+5.1.02.01.01|03.03.04.
+Spanduk dan Banner
+1paket
+350000
+350.000
+0
+350.000
+0012
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Halaman 2 dari 16
+No.
+Kode
+Kode
+Rincian Perhitungan
+Tahap
+Urut
+Rekening
+Program
+Uraian
+Jumlah
+Volume Satuan
+Tarif Harga
+1
+2
+32.
+5.1.02.01.0103.03.04.Kegiatan Pelatihan Guru "Penguatan Nilai-nilai Kearifan Lokal"
+1 paket
+2500000
+2.500.000
+2.500.000
+0
+0012
+33.
+5.1.02.01.0103.03.04.
+Kegiatan Penguatan Pendidikan Karakter Profil Pelajar Pancasila 
+1kegiata
+4252000
+4.252.000
+4.252.000
+0
+0012
+Rahmatan Lill Alamin"
+n
+34.
+5.1.02.01.0103.03.04.
+Kegiatan P5 Market Day Kwirausahaan "Wujudkan Wirausaha Muda
+1paket
+1000000
+1.000.000
+1.000.000
+0
+0012
+Yang Unggul dan Berfkarakter Profil Pelajar Pancasila
+35.
+5.1.02.01.0103.03.04.Perlengkapan Kegiatan p5 " Permainan Tradisional"
+1paket
+2000000
+2.000.000
+0
+2.000.000
+0012
+36.
+5.1.02.01.01
+103.03.04.Tinta Refill Printer
+4buah
+200000
+800.000
+0
+800.000
+0024
+37.
+5.1.02.01.0103.03.04.Lem Tembak/Glue Gun
+1buah
+74000
+74.000
+0
+74.000
+0024
+38.
+5.1.02.01.0103.03.04.Lem Lilin
+2lusin
+24000
+48.000
+0
+48.000
+0024
+39.
+5.1.02.01.0103.03.04.
+Rapat Persiapan Pelaksanaan Semester Ganjil dan E Kinerja
+20dus
+35000
+700.000
+0
+700.000
+0052
+40.
+5.2.02.06.0103.03.04.
+Sound System-1 Set Lengkap
+1 set
+7500000
+7.500.000
+7.500.000
+0
+0001
+41.
+03.03.05.
+Penyelenggaraan Perbaikan/Pengayaan (Remedial)
+207.500
+207.500
+0
+42.
+5.1.02.01.0103.03.05.
+cetak fotocopy
+415lembar
+500
+207.500
+207.500
+0
+0026
+43.
+03.03.06.
+Pelaksanaan Ekstrakurikuler Kepramukaan
+10.250.000
+4.800.000
+5.450.000
+44.
+5.1.02.01.0103.03.06.
+Kegiatan Rapat Kerja Kwartir Ranting Tallo
+1 paket
+600000
+600.000
+600.000
+0
+0012
+45.
+5.1.02.01.0103.03.06.
+Kegiatan Persami
+1 paket
+2500000
+2.500.000
+0
+2.500.000
+0012
+46.
+5.1.02.02.0103.03.06.Jasa Tenaga Ahli-Pejabat Eselon III / Min. S1 / yang disetarakan
+140orang /
+50000
+7.000.000
+4.200.000
+2.800.000
+0029
+jam
+3orang /
+50000
+150.000
+0
+150.000
+47.
+5.1.02.04.0103.03.06.Biaya Transport dalam Daerah-Wilayah Kecamatan
+0003
+hari
+29.550.000
+17.650.000
+11.900.000
+48.
+03.03.07.Pelaksanaan Kegiatan Ekstrakurikuler (diluar Kepramukaan)
+1 paket
+1000000
+1.000.000
+1.000.000
+0
+49.
+5.1.02.01.0103.03.07.Pengadaan Perlengkapan BTQ
+0012
+1paket
+1000000
+1.000.000
+1.000.000
+0
+50.
+5.1.02.01.01
+03.03.07.Pengadaan Perlengkapan Literawan
+0012
+1paket
+1250000
+1.250.000
+1.250.000
+0
+51.
+5.1.02.01.0103.03.07.Perlengkapan Genting
+0012
+1 paket
+1000000
+1.000.000
+1.000.000
+0
+52.
+5.1.02.01.0103.03.07.Pengadaan Perlengkapan DOKCIL"Dokter Kecil"
+0012
+Halaman 3 dari 16
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Kode
+Rincian Perhitungan
+No.
+Kode
+Tahap
+Uraian
+Urut
+Rekening
+Jumlah
+Program
+Volume
+Satuan
+Tarif Harga
+1
+2
+53.
+5.1.02.01.0103.03.07.
+Topi dan ID CarD Dokcil
+1paket
+800000
+800.000
+800.000
+0
+0012
+54.
+5.1.02.02.01
+03.03.07.
+Jasa Tenaga Ahli-Pejabat Eselon III / Min. S1 / yang disetarakan
+490
+orang /
+50000
+24.500.000
+12.600.000
+11.900.000
+0029
+jam
+55.
+03.03.08.
+Program Pembinaan Kesiswaan dan Kepemimpinan Siswa
+1.500.000
+1.500.000
+0
+56.
+5.1.02.01.0103.03.08.
+Pemilihan Duta "Literawan"
+1paket
+1500000
+1.500.000
+1.500.000
+0
+0012
+57.
+03.03.10.Pengembangan program pencegahan dan penanganan kekerasan
+1.009.630
+0
+1.009.630
+di satuan pendidikan (termasuk Program Roots)
+58.
+5.1.02.01.0103.03.10.Spidol White board
+1lusin
+76000
+76.000
+0
+76.000
+0024
+59.
+5.1.02.01.0103.03.10.Tinta Spidol Whiteboard
+1lusin
+167000
+167.000
+0
+167.000
+0024
+60.
+5.1.02.01.0103.03.10.Kertas HVS Folio
+1karton
+254000
+254.000
+0
+254.000
+0024
+61.
+5.1.02.01.0103.03.10.Kertas HVS Kwarto
+1karton
+223500
+223.500
+0
+223.500
+0024
+62.
+5.1.02.01.0103.03.10.Kertas Lain-Lain Merk: Linen Karton Linen Hitam
+105/pack
+4500
+45.000
+0
+45.000
+0024
+63.
+5.1.02.01.01|03.03.10.Pensil 2B Steadler
+3lusin
+2210
+6.630
+0
+6.630
+0024
+64.
+5.1.02.01.0103.03.10.Rautan
+1/pcs
+8500
+8.500
+0
+8.500
+0024
+65.
+5.1.02.01.0103.03.10.Kertas HVS 60 gram Merk: GOLD Ukuran F4
+1rim
+52000
+52.000
+0
+52.000
+0024
+66.
+5.1.02.01.0103.03.10.Kertas Folio Bergaris
+1buah&
+35000
+35.000
+0
+35.000
+0024
+pak
+67.
+5.1.02.01.0103.03.10.Ballpoint Boldiner Standar
+1lusin
+130000
+130.000
+0
+130.000
+0024
+68.
+5.1.02.01.0103.03.10.
+Spidol Permanen
+2buah
+6000
+12.000
+0
+12.000
+0024
+69.
+03.03.11.Penerapan Program Pencegahan Perundungan
+1.500.000
+1.500.000
+0
+70.
+5.1.02.01.0103.03.11.
+Sosialisasi Pencegahan Perundungan oleh TPPK dan Genting
+1paket
+1500000
+1.500.000
+1.500.000
+0012
+(Pemilihan Duta Genting)
+71.
+03.03.13.
+Konsultasi peningkatan mutu pendidikan (Konsultan & Psikolog)
+700.000
+0
+700.000
+72.
+5.1.02.01.0103.03.13.
+Rapat Peningkatan Mutu Pendidikan
+1paket
+700000
+700.000
+0
+700.000
+0012
+73.
+03.03.16.Penyusunan Pembagian Tugas Guru dan Jadwal Pelajaran
+630.000
+630.000
+0
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Halaman 4 dari 16
+No.
+Kode
+Kode
+Rincian Perhitungan
+Tahap
+Uraian
+Jumlah
+Urut
+Rekening
+Program
+Volume|Satuan
+Tarlf Harga
+1
+2
+74.
+5.1.02.01.0103.03.16.
+Rapat Pembagian Tugas
+18 dus
+35000
+630.000
+630.000
+0
+0052
+75.
+03.03.17. Pembiayaan untuk partisipasi kegiatan berbagi praktik baik
+600.000
+550.000
+50.000
+76.
+5.1.02.01.0103.03.17. Transport Kegiatan Coaching Desiminasi Inovasi 2025
+1orang
+50000
+50.000
+0
+50.000
+0012
+77.
+5.1.02.01.0103.03.17.Kegiatan Bimtek Revitalisasi Bahasa Daerah se Kecamatan Tallo
+2orang
+275000
+550.000
+550.000
+0
+0012
+78.
+03.03.19.Pelaksanaan Lomba Lomba
+7.015.000
+3.415.000
+3.600.000
+79.
+5.1.02.01.0103.03.19.
+Biaya Kegiatan 02SN Kec. Tallo 2025
+1paket
+1000000
+1.000.000
+1.000.000
+0
+0012
+80.
+5.1.02.01.0103.03.19.Pentas PAl Kec. Tallo
+4
+orang
+120000
+480.000
+0
+480.000
+0012
+81.
+5.1.02.01.0103.03.19.Festifal Budaya Nusantara 2025 Tingkat SD sekota Makassar
+1/bulan
+1535000
+1.535.000
+1.535.000
+0
+0012
+82.
+5.1.02.01.0103.03.19.Transport Kegiatan Gendrang Bulo
+1kali
+380000
+380.000
+380.000
+0
+0012
+83.
+5.1.02.01.0103.03.19.Kegiatan Lomba Santri Expo
+1paket
+500000
+500.000
+500.000
+0
+0012
+84.
+5.1.02.01.0103.03.19.Kegiatan Lomba O2SN
+1paket
+1200000
+1.200.000
+0
+1.200.000
+0012
+85.
+5.1.02.01.01
+03.03.19.
+Biaya Akomodasi dan Konsumsi
+1paket
+320000
+320.000
+0
+320.000
+0012
+86.
+5.1.02.01.01
+03.03.19.Pembelian Kuota seleksi Sahabat Sekolah Dasar Kemendikdasmen
+1 paket
+100000
+100.000
+0
+100.000
+0012
+87.
+5.1.02.01.01
+03.03.19.Lomba Kepramukaan
+1paket
+1500000
+1.500.000
+0
+1.500.000
+0036
+88.
+03.03.20.Pelaksanaan Program-Program Sekolah Lainnya
+500.000
+0
+500.000
+89.
+5.1.02.01.0103.03.20.
+Pembahasan Program Sekolah
+1paket
+500000
+500.000
+0
+500.000
+0036
+90.
+03.03.22.
+Penyelenggaraan Pembelajaran aktif, kreatif, efektif, dan nyaman
+6.484.800
+4.130.000
+2.354.800
+91.
+5.1.02.01.0103.03.22.
+Outing Class "Naval Museum Lantamal"
+1paket
+4130000
+4.130.000
+4.130.000
+0
+0012
+92.
+5.1.02.01.0103.03.22.Kertas HVS 80 gram Merk: Sidu A4
+10rim
+53000
+530.000
+0
+530.000
+0024
+93.
+5.1.02.01.0103.03.22.
+Spidol Board Marker
+2dus
+119000
+238.000
+0
+238.000
+0024
+94.
+5.1.02.01.01|03.03.22.Tinta Spidol Whiteboard
+5 dus
+10400
+52.000
+0
+52.000
+0024
+Kertas Kerja perTahap - NPSN: 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Halaman 5 dari 16
+No.
+Kode
+Kode
+Rinclan Perhitungan
+Tahap
+Uralan
+Jumlah
+Urut
+Rekening
+Program
+VolumeSatuan
+Tarif Harga
+1
+2
+95.
+5.1.02.01.01
+03.03.22.
+Penghapus White Board
+1 dus
+79900
+79.900
+0
+79.900
+0024
+96.
+5.1.02.01.0103.03.22.
+Kertas HVS 80 gram Merk : Bola Dunia Folio, Ukuran : 8,5 x 14", Isi
+10rim
+55000
+550.000
+0
+550.000
+0024
+500 lembar
+97.
+5.1.02.01.0103.03.22.Ball Point Gel
+5dus
+40980
+204.900
+0
+204.900
+0024
+98.
+5.1.02.01.01|03.03.22.Rapat Inovasi 2024
+20dus
+35000
+700.000
+0
+700.000
+0052
+99.
+03.05.
+Pelaksanaan Administrasi Keglatan Sekolah
+300.000
+300.000
+0
+100.
+03.05.01.Kegiatan koordinasi dan pelaporan untuk mendukung Program
+300.000
+300.000
+0
+Prioritas Pusat (Program Indonesla Pintar, BOSP, Sekolah
+Penggerak, dll.)
+101.
+5.1.02.04.0103.05.01.
+Biaya Transport dalam Daerah-Wilayah Kota
+3orang /
+100000
+300.000
+300.000
+0
+0003
+hari
+102.
+04.
+Standar Tenaga Kependidikan
+29.454.640
+6.060.000
+23.394.640
+103.
+04.06.
+Pengembangan Profesi Pendidik dan Tenaga Kependidikan
+29.454.640
+6.060.000
+23.394.640
+104.
+04.06.01.
+.Pelaksanaan kegiatan komunitas belajar di satuan pendidikan
+6.000.000
+0
+6.000.000
+105.
+5.1.02.01.0104.06.01.Kegiatan Pelatihan Coding dan Deep learnig
+1paket
+2500000
+2.500.000
+0
+2.500.000
+0012
+106.
+5.1.02.01.0104.06.01.Penyusunan Program Kegiatan Kombel Harmoni
+1paket
+3500000
+3.500.000
+0
+3.500.000
+0052
+107.
+04.06.02. Kegiatan Komunitas Belajar antar sekolah (termasuk KKG, MGMP,
+6.990.000
+4.000.000
+2.990.000
+MGMPS, MGMPK, KKKS, atau MKKS)
+108.
+5.1.02.01.0104.06.02.biaya Kontribusi
+24orang
+30000
+720.000
+0
+720.000
+0012
+109.
+5.1.02.01.01
+104.06.02.Kontribusi KKG PAI
+24orang
+30000
+720.000
+0
+720.000
+0012
+110.
+5.1.02.04.01
+04.06.02.
+Biaya Transport dalam Daerah-Wilayah Kecamatan
+19orang
+50000
+950.000
+950.000
+0
+0003
+111.
+5.1.02.04.01
+04.06.02.
+Biaya Transport dalam Daerah-Wilayah Kecamatan
+84 orang /
+50000
+4.200.000
+3.000.000
+1.200.000
+0003
+kegiata
+n
+112.
+5.1.02.04.01
+04.06.02.
+Biaya Transport dalam Daerah-Wilayah Kota
+1
+orang /
+50000
+50.000
+50.000
+0
+0003
+kali
+113.
+5.1.02.04.01
+04.06.02.
+Biaya Transport dalam Daerah-Wilayah Kecamatan
+1orang /
+50000
+50.000
+0
+50.000
+0003
+hari
+114.
+5.1.02.04.0104.06.02.
+Biaya Transport dalam Daerah-Wilayah Kota
+4orang /
+50000
+200.000
+0
+200.000
+0003
+kali
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Halaman 6 dari 16
+No.
+Kode
+Kode
+Rincian Perhitungan
+Tahap
+Urut
+Rekening
+Uralian
+Jumlah
+Program
+Volume Satuan
+Tarif Harga
+1
+2
+115.
+5.1.02.04.0104.06.02.
+Biaya Transport dalam Daerah-Wilayah Kota
+2orang /
+50000
+100.000
+0
+100.000
+0003
+kali
+116.
+04.06.04. Pengembangan diri guru dan tenaga kependidikan materi lain
+2.500.000
+0
+2.500.000
+melalui PMM
+117.
+5.1.02.01.01
+04.06.04.Pelatihan Digitalisasi pembelajaran
+1 paket
+2500000
+2.500.000
+0
+2.500.000
+0012
+118.
+04.06.05.
+Peningkatan Kompetensi Guru
+2.200.000
+600.000
+1.600.000
+119.
+5.1.02.01.0104.06.05.Pelaksanaan Porseni Siswa, Guru dan Tenaga Kependidikan
+1paket
+800000
+800.000
+0
+800.000
+0012
+120.
+5.1.02.04.01
+04.06.05.
+Biaya Transport dalam Daerah-Wilayah Kota
+12orang /
+100000
+1.200.000
+600.000
+600.000
+0003
+bulan
+121.
+5.1.02.04.01
+04.06.05.
+Biaya Transport dalam Daerah-Wilayah Kecamatan
+2orang /
+50000
+100.000
+0
+100.000
+0003
+hari
+122.
+5.1.02.04.01
+04.06.05.
+Biaya Transport dalam Daerah-Wilayah Kota
+2
+orang /
+50000
+100.000
+0
+100.000
+0004
+kali
+123.
+04.06.06.
+Peningkatan Kompetensi Kepala Sekolah
+100.000
+0
+100.000
+124.
+5.1.02.01.0104.06.06.
+Transport Kegiatan Sosialisasi Penguatan Pendidikan Karakter
+1
+orang
+50000
+50.000
+0
+50.000
+0012
+125.
+5.1.02.04.01
+104.06.06.Biaya Transport dalam Daerah-Wilayah Kota
+1orang /
+50000
+50.000
+0
+50.000
+0003
+kali
+126.
+04.06.07.Pembinaan dan Peningkatan Kompetensi Tenaga Pelaksana
+100.000
+0
+100.000
+Sekolah (Tenaga Ekstrakurikuler, TU, Laboratorium, Perustakaan,
+dan UKS)
+127.
+5.1.02.04.0104.06.07.Biaya Transport dalam Daerah-Wilayah Kota
+1orang /
+100000
+100.000
+0
+100.000
+0003
+hari
+128.
+04.06.11.Peningkatan Kompetensi Guru untuk keterlibatan orangtua/wali
+800.000
+0
+800.000
+dan masyarakat dalam pembelajaran
+129.
+5.1.02.01.0104.06.11.Rapat Orang Tua siswa pengenalan Lingkungan Sekolah
+80dos
+10000
+800.000
+0
+800.000
+0052
+04.06.12.Peningkatan Kompetensi Guru untuk pengelolaan lingkungan
+1.330.000
+630.000
+700.000
+130.
+pembelajaran yang aman dan nyaman
+20dus
+35000
+700.000
+0
+700.000
+131.
+5.1.02.01.0104.06.12.
+Rapat Pelaksanaan Kegiatan ANBK
+0052
+1 paket
+630000
+630.000
+630.000
+0
+132.
+5.1.02.01.01
+04.06.12.
+Rapat Persiapan Kegiatan Penguatan Pendidikan Karakter profil
+0052
+Pelajar Pancasila
+50.000
+0
+50.000
+133.
+04.06.13.
+Peningkatan Kompetensi Guru untuk memperkuat numerasi
+1orang
+50000
+50.000
+0
+50.000
+134.
+5.1.02.01.0104.06.13.
+Transport Pengimputan Update Inovasi IGA 2025
+0012
+Halaman 7 dari 16
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+No.
+Kode
+Kode
+Rincian Perhitungan
+Uraian
+Tahap
+Urut
+Rekening
+Program
+Jumlah
+Volume
+Satuan
+Tarif Harga
+1
+2
+135.
+04.06.25.
+Peningkatan Kompetensi Guru untuk pembelajaran berorientasi
+3.000.000
+0
+3.000.000
+pada peserta didik
+136.
+5.1.02.01.0204.06.25.Kegiatan Pelatihan Coding dan Pembelajaran Mendalam
+1paket
+3000000
+3.000.000
+0
+3.000.000
+0003
+137.
+04.06.27.Peningkatan Kompetensi Guru untuk asesmen, umpan balik dan
+830.000
+830.000
+0
+pelaporan yang berpusat pada peserta didik
+138.
+5.1.02.01.0104.06.27.Foto Copy Filio dan Kuarto
+1660lembar
+500
+830.000
+830.000
+0
+0026
+139.
+04.06.34.Peningkatan Kompetensi Guru untuk Pemahaman Profil Pelajar
+4.000.000
+0
+4.000.000
+Pancasila: Nalar Kritis
+140.
+5.1.02.04.01
+04.06.34.
+Biaya Transport dalam Daerah-Wilayah Kota
+40orang /
+100000
+4.000.000
+0
+4.000.000
+0003
+hari
+141.
+04.06.42. Peningkatan Kompetensi Guru untuk memahami tentang disiplin
+700.000
+0
+700.000
+positif (dan menghindari hukuman fisik)
+142.
+5.1.02.01.0104.06.42.Kegiatan Peningkatan Kompetensi Guru Disiplin Positif
+20orang
+35000
+700.000
+0
+700.000
+0053
+143.
+04.06.44.Peningkatan Kompetensi Guru untuk memahami
+854.640
+0
+854.640
+toleransi/kesetaraan/moderasi beragama dan budaya
+144.
+5.1.02.01.01|04.06.44.Pelatihan Moderasi Beragama
+1kegiata
+854640
+854.640
+0
+854.640
+0012
+n
+145.
+05.
+Standar Sarana dan Prasarana
+103.148.575
+57.626.890
+45.521.685
+146.
+05.02.
+Pengembangan Perpustakaan
+18.125.000
+0
+18.125.000
+147.
+05.02.04.
+Pengadaan Buku Teks Utama/Pendamping Guru
+18.125.000
+0
+18.125.000
+148.
+5.1.02.03.0505.02.04.
+Pembelian Buku Pendamping
+1paket
+18125000
+18.125.000
+0
+18.125.000
+0001
+149.
+05.05.
+Pelaksanaan Administrasi Kegiatan Sekolah
+8.995.710
+4.248.390
+4.747.320
+150.
+05.05.02.Pengembangan sekolah sehat, sekolah aman, sekolah ramah
+8.995.710
+4.248.390
+4.747.320
+anak, sekolah inklusi, sekolah adiwiyata dan sejenisnya
+151.
+5.1.02.01.0105.05.02.Perbaikan Pipa Air Sumur
+1paket
+500000
+500.000
+0
+500.000
+0012
+152.
+5.1.02.01.0105.05.02.Komsumsi Rapat Persiapan Adiwiyata, Inovasi, dan Kegiatan PAS
+1dus
+700000
+700.000
+700.000
+0
+0012
+kelas VI
+153.
+5.1.02.01.01
+05.05.02.Kegiatan Pelatihan Pembibitan tanaman Menuju Adiwiyata Provinsi
+1paket
+3500000
+3.500.000
+3.500.000
+0
+0012
+154.
+5.1.02.01.01
+05.05.02.
+Perlengkapan Adiwiyata
+1paket
+607320
+607.320
+0
+607.320
+0012
+155.
+5.1.02.01.0105.05.02.
+Ball Point Gel
+3 dus
+16130
+48.390
+48.390
+0
+0024
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Halaman 8 dari 16
+No.
+Kode
+Kode
+Rincian Perhitungan
+Tahap
+Uralan
+Urut
+Rekening
+Program
+Jumlah
+Volume
+Satuan
+Tarif Harga
+1
+2
+156.
+5.1.02.01.0105.05.02.
+Tinta Refill Printer
+1paket
+1240000
+1.240.000
+0
+1.240.000
+0024
+157.
+5.2.02.05.0205.05.02.
+Kipas Angin Dinding-Baling-Baling Besi/Alumunium, Uk. 26 Inch
+2unit
+1200000
+2.400.000
+0
+2.400.000
+0004
+158.
+05.08.
+Pemeliharaan Sarana dan Prasarana Sekolah
+76.027.865
+53.378.500
+22.649.365
+159.
+05.08.01.
+Pemeliharaan Prasarana Lahan, Bangunan dan Ruang
+42.752.000
+37.252.000
+5.500.000
+160.
+5.1.02.01.0105.08.01.
+Revitalisasi Taman Sekolah
+1paket
+19497000
+19.497.000
+19.497.000
+0
+0012
+161.
+5.1.02.01.01
+05.08.01.Pengerjaan Lantai Teras Sekolah,Bawah Tangga, Teras Kantor
+1
+paket
+17005000
+17.005.000
+17.005.000
+0
+0012
+162.
+5.1.02.01.0105.08.01. Lukis Tebok Pagar Taman Sekolah
+1paket
+5500000
+5.500.000
+0
+5.500.000
+0012
+163.
+5.1.02.03.03|05.08.01.Perbaikan Ventilasi Udara Perpustakaan
+4unit
+187500
+750.000
+750.000
+0
+0016
+164.
+05.08.02.Pengadaan Peralatan Sekolah diluar diluar komponen penyediaan
+6.494.680
+3.700.000
+2.794.680
+alat multimedia pembelajaran
+165.
+5.1.02.01.0105.08.02.
+Bola Volly Mikassa
+3paket
+650000
+1.950.000
+1.950.000
+0
+0012
+166.
+5.1.02.01.0105.08.02.
+pembelian pointer Resenter
+2 pcs
+150000
+300.000
+300.000
+0
+0012
+167.
+5.1.02.01.0105.08.02.Pembelian baterai charger
+1unit
+750000
+750.000
+750.000
+0
+0012
+168.
+5.2.02.05.0205.08.02.Kipas Angin Standing Uap-Baling-Baling Besi/Alumunium, Uk. 16 Inch
+1unit
+2794680
+2.794.680
+0
+2.794.680
+0004
+169.
+5.2.02.05.02
+05.08.02.
+Dispenser Top loading Stand-Suhu Normal, Panas dan Dingin
+2unit
+350000
+700.000
+700.000
+0
+0006
+170.
+05.08.03.
+Pemeliharaan Peralatan Sekolah
+5.103.160
+1.603.160
+3.500.000
+171.
+5.1.02.01.0105.08.03.
+Pintu
+1meter
+3500000
+3.500.000
+0
+3.500.000
+0001
+172.
+5.1.02.01.0105.08.03.Perbaikan Pipa Air
+1/bulan
+590000
+590.000
+590.000
+0
+0012
+173.
+5.1.02.01.01
+05.08.03.Map Batik-Uk. F4 / Folio, Bahan Kertas Tebal
+2pack
+19080
+38.160
+38.160
+0
+0024
+174.
+5.1.02.02.0105.08.03.
+Cuci Ac Prion
+1kali
+375000
+375.000
+375.000
+0
+0035
+175.
+5.1.02.03.03|05.08.03.
+Biaya perbaikan Jendela Perpustakaan
+1kali
+600000
+600.000
+600.000
+0
+0016
+176.
+05.08.04.Pengadaan Perlengkapan Sekolah diluar komponen penyediaan
+9.533.000
+1.793.000
+7.740.000
+alat multimedia pembelajaran
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Halaman 9 dari 16
+No.
+Rincian Perhitungan
+Tahap
+Kode
+Kode
+Rekening
+Uraian
+Jumlah
+Urut
+Program
+Volume Satuan
+Tarif Harga
+1
+2
+177.
+5.1.02.01.01
+105.08.04.
+Papan Tulis
+1 pcs
+1650000
+1.650.000
+1.650.000
+0
+0012
+178.
+5.1.02.01.01
+05.08.04.Penbelian Kabel HDMI
+1buah
+143000
+143.000
+143.000
+0
+0012
+179.
+5.1.02.01.0105.08.04.Pembelian Pigura (Foto) Presiden dan Wakil Presiden
+12buah
+70000
+840.000
+0
+840.000
+0012
+180.
+5.1.02.01.01
+05.08.04.Pembelian Pigura/Foto Walikota dan Wakil Walikota
+2buah
+75000
+150.000
+0
+150.000
+0012
+181.
+5.1.02.01.01
+05.08.04.Pembelian CCTV
+6per titik
+1000000
+6.000.000
+0
+6.000.000
+0012
+182.
+5.1.02.01.0105.08.04.Pembelian Alat kebersihan Sabun dil.
+1buah
+750000
+750.000
+0
+750.000
+0012
+183.
+05.08.05.
+Pemeliharaan Perlengkapan Sekolah
+2.570.000
+2.500.000
+70.000
+184.
+5.1.02.01.0105.08.05.
+Pemeliharaan Papan Tulis Sekolah
+1paket
+2500000
+2.500.000
+2.500.000
+0
+0012
+185.
+5.1.02.02.0105.08.05.Jasa Cuci AC dan Service
+1unit
+70000
+70.000
+0
+70.000
+0035
+186.
+05.08.07.Pengadaan Peralatan untuk menunjang pembelajaran Peserta
+529.185
+0
+529.185
+Didik Penyandang Disabilitas
+187.
+5.1.02.01.0105.08.07.Perlengkapan MPLS (ATK dan Atribut MPLS)
+1paket
+529185
+529.185
+0
+529.185
+0012
+188.
+05.08.08.
+Pengadaan Sarana Perlengkapan untuk mendukung Peserta Didik
+1.950.000
+0
+1.950.000
+Disabilitas
+189.
+5.1.02.02.0405.08.08.Pembelian Alat-alat Kebresihan
+1 paket
+1950000
+1.950.000
+0
+1.950.000
+0123
+190.
+05.08.09.Pengadaan Perlengkapan Daya dan Jasa Sekolah (instalasi air,
+921.300
+921.300
+0
+listrik, telepon, internet, termasuk genset/panel surya)
+191.
+5.1.02.01.0105.08.09.
+Total Biaya Pemasangan wifi sekolah
+1kegiata
+921300
+921.300
+921.300
+0
+0012
+In
+192.
+05.08.10.Pemeliharaan Perlengkapan Daya dan Jasa Sekolah (instalasi air,
+6.074.540
+5.609.040
+465.500
+listrik, internet, termasuk genset/panel surya)
+193.
+5.1.02.01.0105.08.10.
+Bayar Tagihan Listrik
+1/bulan
+135040
+135.040
+135.040
+0
+0012
+194.
+5.1.02.01.0105.08.10.
+Biaya Pemasangan Pipa
+1kali
+1503500
+1.503.500
+1.503.500
+0
+0012
+195.
+5.1.02.01.0105.08.10.
+Biaya perbaikan,Top Up,Wifi Kantor, Perpustakaan, dan Ruang Kelas
+1paket
+2520500
+2.520.500
+2.520.500
+0
+0012
+196.
+5.1.02.02.0105.08.10.perbaikan Listrik kelas 2,4,5 & Kantor
+1unit
+1450000
+1.450.000
+1.450.000
+0
+0035
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Halaman 10 dari 16
+No.
+Kode
+Kode
+Rincian Perhitungan
+Tahap
+Uraian
+Jumlah
+Urut
+Rekening
+Program
+Volume Satuan
+Tarif Harga
+1
+2
+197.
+5.1.02.02.0105.08.10.Perbaikan Listrik Koslet Kelas 1 dan 2
+1paket
+465500
+465.500
+0
+465.500
+0035
+198.
+05.08.12. Tindakan tanggap darurat dampak bencana (tidak termasuk
+100.000
+0
+100.000
+perbaikan setelah lewat tanggap darurat)
+199.
+5.1.02.01.0105.08.12.
+Pembelian Rute Jalur Evakuasi
+1
+orang /
+100000
+100.000
+0
+100.000
+0012
+hari
+200.
+06.
+Standar Pengelolaan
+24.350.745
+16.866.935
+7.483.810
+201.
+06.05.
+Pelaksanaan Administrasi Kegiatan Sekolah
+15.455.765
+12.278.795
+3.176.970
+202.
+06.05.08.
+Pembelian Bahan Habis Pakai untuk mendukung pembelajaran
+10.775.365
+8.703.395
+2.071.970
+dan administrasi sekolah (termasuk ATK, Tinta Printer, Kabel
+Ekstension, dsb)
+203.
+5.1.02.01.0106.05.08.Pembelian ATK Kantor
+1paket
+1805450
+1.805.450
+1.805.450
+0
+0012
+204.
+5.1.02.01.0106.05.08.Pembelian Materai POS Untuk Keperluan Administrasi sekolah
+30buah
+10000
+300.000
+300.000
+0
+0012
+205.
+5.1.02.01.0106.05.08.
+Tinta Printer Brother 4 Warma
+4/pcs
+270000
+1.080.000
+1.080.000
+0
+0012
+206.
+5.1.02.01.0106.05.08.Pembelian ATK Kertas Liminating dan Kertas Foto
+1buah &
+1090000
+1.090.000
+1.090.000
+0
+0012
+pak
+207.
+5.1.02.01.010
+06.05.08.Pembelian ATK Untuk Kegiatan Pembelajaran
+1paket
+1220000
+1.220.000
+1.220.000
+0
+0012
+208.
+5.1.02.01.01
+106.05.08.Pembelian ATK Ijazah
+1paket
+800000
+800.000
+800.000
+0
+0012
+209.
+5.1.02.01.01
+06.05.08.
+Pulpen Gel Snowman Besar
+2/pcs
+5360
+10.720
+0
+10.720
+0012
+210.
+5.1.02.01.01
+06.05.08.Pembelian Kertas HVS A4 dan F4
+1 dos
+1195000
+1.195.000
+0
+1.195.000
+0012
+211.
+5.1.02.01.0106.05.08.Pembelian Tinta Printer 4 Warna Epson
+4 dos
+185000
+740.000
+0
+740.000
+0012
+212.
+5.1.02.01.0106.05.08.
+Tinta Refill Printer
+8buah
+127500
+1.020.000
+1.020.000
+0
+0024
+213.
+5.1.02.01.01
+06.05.08.
+Rautan
+1buah
+2650
+2.650
+0
+2.650
+0024
+214.
+5.1.02.01.0106.05.08.Punch Laminating film bening Ukuran F4, 100
+1 pack
+123600
+123.600
+0
+123.600
+0024
+micron Joyko
+215.
+5.1.02.01.01
+106.05.08.
+Stop Kontak
+2buah
+54000
+108.000
+108.000
+0
+0031
+216.
+5.1.02.01.0106.05.08.
+Baterai-AAA ( Isi 2 )
+5 pcs
+9089
+45.445
+45.445
+0
+0031
+ertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Halaman 11 dari 16
+No.
+Kode
+Rincian Perhitungan
+Kode
+Tahap
+Rekening
+Uraian
+Jumlah
+Urut
+Program
+Volume Satuan
+Tarif Harga
+1
+2
+217.
+5.1.02.01.0106.05.08.
+pembelian Tisu
+25/pack
+100000
+200.000
+200.000
+0
+0036
+218.
+5.1.02.01.0206.05.08.Wireeles microphone dual karaoke UHF
+1 pcs
+484500
+484.500
+484.500
+0
+0003
+219.
+5.1.02.01.0206.05.08.profesional UHF wireless microphone
+1unit
+550000
+550.000
+550.000
+0
+0003
+220.
+06.05.09.Pembelian bahan habis pakai/alat penunjang kebersihan dan
+1.120.400
+1.015.400
+105.000
+sanitasi sekolah
+221.
+5.1.02.01.01
+06.05.09.Pembelian Alat Kebersihan
+1paket
+1015400
+1.015.400
+1.015.400
+0
+0012
+222.
+5.1.02.01.0106.05.09.Pembelian Bendera
+1lembar
+50000
+50.000
+0
+50.000
+0012
+223.
+5.1.02.01.01
+106.05.09.laundry Gorden dan Taplak Meja
+1buah
+55000
+55.000
+0
+0012
+55.000
+224.
+06.05.10. Pembelian Bahan Habis Pakal (termasuk Suku Cadang Alat) untuk
+3.210.000
+2.460.000
+750.000
+Kegiatan Rumah Tangga Sekolah
+225.
+5.1.02.01.01 06.05.10.Alat - Alat Listrik
+1paket
+1619000
+1.619.000
+1.619.000
+0
+0012
+226.
+5.1.02.01.0106.05.10.Pembelian Baterai Cas dan Charger dudukan
+1buah
+750000
+750.000
+0
+750.000
+0012
+227.
+5.1.02.01.0206.05.10.
+Pembelian Pompa Air dan Biaya Pemasangan
+1unit
+841000
+841.000
+841.000
+0003
+0
+228.
+06.05.14.Transportasi atau perjalanan dinas dalam rangka koordinasi dan
+350.000
+100.000
+250.000
+pelaporan ke Dinas Pendidikan
+229.
+5.1.02.01.0106.05.14.Tranport kegiatan Bimtek Aplikasi PPDB TA 2025/2026
+1orang
+50000
+50.000
+0
+50.000
+0012
+230.
+5.1.02.01.01
+106.05.14.Transpoetasi Pencairan dan Penandatanganan Kartu Kontrol
+4orang
+50000
+200.000
+0
+200.000
+0012
+231.
+5.1.02.04.01
+06.05.14. Biaya Perjalanan Dinas Dalam Provinsi-Eselon IV / Gol III / Gol II / Gol I
+1orang /
+100000
+100.000
+100.000
+0
+0001
+/ Non ASN (1 Hari 1 Malam)
+bulan
+232.
+06.07.
+Pembiayaan Langganan Daya dan Jasa
+8.894.980
+4.588.140
+4.306.840
+233.
+06.07.01.
+Pembayaran daya listrik
+1.119.100
+580.200
+538.900
+234.
+5.1.02.01.01
+06.07.01.Pembayaran listrik bulan Mei
+1/bulan
+88960
+88.960
+88.960
+0
+0012
+235.
+5.1.02.02.01
+06.07.01. Tagihan Listrik-Golongan Tarif P-1 / TR, 900 Va
+49124kwh
+10
+491.240
+491.240
+0
+0061
+236.
+5.1.02.02.01
+06.07.01.Tagihan Listrik-Golongan Tarif P-1 / TR, 900 Va
+538900kwh
+1
+538.900
+0
+538.900
+0061
+237.
+06.07.05.Pembayaran jasa internet
+4.415.880
+2.207.940
+2.207.940
+ertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Halaman 12 dari 16
+No.
+Kode
+Kode
+Rincian Perhitungan
+Tahap
+Uraian
+Jumlah
+Urut
+Rekening
+Program
+Volume
+Satuan
+Tarif Harga
+1
+2
+238.
+5.1.02.02.0106.07.05.
+Biaya Langganan Internet-Internet Broadband (Speed Up to 100 Mbps)
+12
+per
+367990
+4.415.880
+2.207.940
+2.207.940
+0063
+Fiber Optik
+bulan
+239.
+06.07.08.
+Pembayaran Retribusi keamanan dan sampah
+240.000
+240.000
+0
+240.
+5.1.02.02.0106.07.08.
+Retribusi Sampah
+6/bulan
+40000
+240.000
+240.000
+0
+0051
+241.
+06.07.09.
+Pembayaran langganan koran dan majalah
+3.120.000
+1.560.000
+1.560.000
+242.
+5.1.02.01.01
+06.07.09.
+Langganan Bidik Nasioanl Group
+12 per
+125000
+1.500.000
+750.000
+750.000
+0012
+bulan
+243.
+5.1.02.01.01
+06.07.09.
+Langganan Media Cetak Koran Berita Kota 6 Bulan
+12kali
+135000
+1.620.000
+810.000
+810.000
+0012
+244.
+07.
+Pengembangan standar pembiayaan
+70.100.000
+35.500.000
+34.600.000
+245.
+07.12.
+Pembayaran Honor
+70.100.000
+35.500.000
+34.600.000
+246.
+07.12.01.
+Pembayaran honor Guru/Pendidik
+14.400.000
+7.200.000
+7.200.000
+247.
+5.1.02.02.0107.12.01.
+Hasri Ainun Efendi
+6orang
+1200000
+7.200.000
+7.200.000
+0
+0013
+248.
+5.1.02.02.01.07.12.01.Hasri Ainun Efendi (1440777678230012)
+6orang /
+1200000
+7.200.000
+0
+7.200.000
+0013
+bulan
+249.
+07.12.02.
+Pembayaran honor Tenaga Kependidikan (selain pendidik)
+35.100.000
+16.500.000
+18.600.000
+250.
+5.1.02.02.0107.12.02.
+Honor Tenaga Kependidikan (Pustakawan)
+6orang
+1100000
+6.600.000
+6.600.000
+0
+0013
+251.
+5.1.02.02.01
+07.12.02.
+Honor Pustakawan
+6orang /
+1200000
+7.200.000
+0
+7.200.000
+0013
+bulan
+252.
+5.1.02.02.01
+07.12.02.
+Tenaga Kebersihan (Bujang)
+12orang
+900000
+10.800.000
+5.400.000
+5.400.000
+0030
+253.
+5.1.02.02.0107.12.02.Honor Tenaga Kependidikan (Satpam)
+9orang
+1000000
+9.000.000
+3.000.000
+6.000.000
+0031
+254.
+5.1.02.02.01
+07.12.02.Honor Tenaga Kependidikan (Satpam)
+3orang
+500000
+1.500.000
+1.500.000
+0
+0031
+255.
+07.12.03.
+Pembayaran Honor tenaga administrasi
+20.600.000
+11.800.000
+8.800.000
+256.
+5.1.02.02.0107.12.03.
+Tenaga Administrasi
+5orang /
+1000000
+5.000.000
+4.000.000
+1.000.000
+0013
+bulan
+257.
+5.1.02.02.01
+07.12.03.
+Honor Tenaga Administrasi (Operator)
+12bulan
+1300000
+15.600.000
+7.800.000
+7.800.000
+0026
+258.
+08.
+Standar Penilaian Pendidikan
+34.870.640
+19.745.640
+15.125.000
+259.
+08.04.
+Pelaksanaan Kegiatan Asesmen dan Evaluasi Pembelajaran
+30.850.640
+15.725.640
+15.125.000
+260.
+08.04.01.
+Persiapan, uji coba, simulasi, dan pelaksanaan Asesmen Nasional
+405.000
+0
+405.000
+261.
+5.1.02.01.0108.04.01.
+Konsumsi Kegiatan Simulasi ANBK
+6
+orang
+35000
+210.000
+0
+210.000
+0012
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Halaman 13 dari 16
+Rincian Perhitungan
+Tahap
+No.
+Kode
+Kode
+Uraian
+Jumlah
+Urut
+Rekening
+Program
+Volume
+Satuan
+Tarif Harga
+1
+2
+262.
+5.1.02.01.0108.04.01.Kertas HVS Folio
+3rim
+65000
+195.000
+0
+195.000
+0024
+263.
+08.04.02.
+Penyiapan dan Pelaksanaan Asesmen di Awal Pembelajaran
+5.200.000
+0
+5.200.000
+264.
+5.1.02.01.0108.04.02.
+Sampul Rapor/Buku rapor
+80buah
+65000
+5.200.000
+0
+5.200.000
+0026
+265.
+08.04.03.Penyusunan kisi-kisi dan penyusunan soal penilaian formatif
+3.437.000
+3.437.000
+0
+(ulangan harian)
+266.
+5.1.02.01.0108.04.03.
+cetak fotocopy
+6874 paket
+500
+3.437.000
+3.437.000
+0
+0026
+267.
+08.04.05.Penyusunan kisi-kisi dan penyusunan soal penilaian sumatif
+4.401.900
+4.401.900
+0
+(ulangan tengah semester/akhir semester/kenaikan kelas)
+268.
+5.1.02.01.0108.04.05.
+cetak fotocopy
+1paket
+2601900
+2.601.900
+2.601.900
+0
+0026
+269.
+5.1.02.01.01
+08.04.05.Kegiatan PTS Semester Genap TA 2023/2024
+120orang/
+15000
+1.800.000
+1.800.000
+0
+0052
+kegiata
+n
+270.
+08.04.06.Pelaksanaan penilaian sumatif (ulangan tengah semester/akhir
+6.940.000
+3.740.000
+3.200.000
+semester/kenaikan kelas)
+271.
+5.1.02.01.0108.04.06.Kegiatan PAS Ganjil TA 2024/2025
+120dus
+15000
+1.800.000
+0
+1.800.000
+0012
+272.
+5.1.02.01.01.08.04.06.cetak fotocopy
+808 paket
+2500
+2.020.000
+2.020.000
+0
+0026
+273.
+5.1.02.01.0108.04.06.
+Rapat Pelaksanaan Sumatif Akhir Semester Genap, Penerimaan
+20
+dus
+35000
+700.000
+700.000
+0
+0052
+Rapor, dan Panitia PPDB
+274.
+5.1.02.01.01
+08.04.06.
+Pelaksanaan Sumatif Akhir Semester Genap TA 2024/2025
+120dus
+8500
+1.020.000
+1.020.000
+0
+0052
+275.
+5.1.02.01.01
+08.04.06.Rapat Kegiatan Sekolah Bulan September
+20dus
+35000
+700.000
+0
+700.000
+0052
+20paket
+35000
+700.000
+0
+700.000
+276.
+5.1.02.01.0108.04.06.Rapat Penilaian Akhir Semester Ganjil TA 2024/2025
+0052
+1.278.650
+1.278.650
+0
+277.
+08.04.07.Penyusunan Kisi-Kisi dan Penyusunan Soal Penilaian/Asesmen
+Sekolah (Akhir Sekolah)
+20dus
+25000
+500.000
+500.000
+0
+278.
+5.1.02.01.01
+08.04.07.
+Komsumsi PAS Kelas VI
+0012
+1paket
+538650
+538.650
+538.650
+0
+279.
+5.1.02.01.0108.04.07.cetak fotocopy
+0026
+orang
+40000
+240.000
+240.000
+0
+280.
+5.1.02.01.0108.04.07.Kegiatan ANBK
+6
+0053
+Halaman 14 dari 16
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+No.
+Kode
+Kode
+Rincian Perhitungan
+Tahap
+Urut
+Rekening
+Program
+Uraian
+Jumlah
+Volume
+Satuan
+Tarif Harga
+1
+2
+281.
+08.04.08.
+Penyiapan, Uji Coba, dan Pelaksanaan Penilalan/Asesmen
+7.188.090
+2.868.090
+4.320.000
+Sekolah (Akhir Sekolah) - Termasuk Asesmen Sekolah Berbasis
+Komputer
+282.
+5.1.02.01.0108.04.08.cetak fotocopy
+1 paket
+769040
+769.040
+769.040
+0
+0026
+283.
+5.1.02.01.0108.04.08.
+Kegiatan Ujian Akhir Sekolah
+1
+per
+1399050
+1.399.050
+1.399.050
+0
+0052
+orang
+284.
+5.1.02.01.0108.04.08.
+Rapat Ujian Sekolah dan P5 (Kearifan Lokal)
+20dus
+35000
+700.000
+700.000
+0
+0052
+285.
+5.1.02.01.0108.04.08.
+Kegiatan Gladi Bersih ANBK
+6
+orang
+40000
+240.000
+0
+240.000
+0053
+286.
+5.1.02.01.0108.04.08.
+Konsumsi Kegiatan PAS
+72
+orang
+15000
+1.080.000
+0
+1.080.000
+0053
+287.
+5.1.02.02.0108.04.08.
+Jasa Tenaga Ahli-Tenaga Ahli (Memiliki Sertifikat atau pengalaman)
+2/hari
+450000
+900.000
+0
+900.000
+0029
+288.
+5.1.02.02.01
+08.04.08.
+Jasa Tenaga Ahli-Tenaga Ahli (Memiliki Sertifikat atau pengalaman)
+6/hari
+350000
+2.100.000
+0
+2.100.000
+0029
+289.
+08.04.10.
+Penyusunan Kompetensi Ketuntasan Minimal
+2.000.000
+0
+2.000.000
+290.
+5.1.02.01.0108.04.10.
+Kegiatan Peningkatan Kompetensi Guru
+1paket
+2000000
+2.000.000
+0
+2.000.000
+0012
+291.
+08.06.
+Pengembangan Profesi Pendidik dan Tenaga Kependidikan
+4.020.000
+4.020.000
+0
+292.
+08.06.01.
+Fasilitasi pengembangan kompetensi guru melalui diseminasi
+4.020.000
+4.020.000
+0
+PSP (IHT, Pelatihan, Penugasan, Pengembangan Portofolio,
+Pelaksanaan P5, dan Workshop)
+293.
+5.1.02.01.0108.06.01.Pelatihan Harmoni Digital Sentuhan Teknologi
+1paket
+3500000
+3.500.000
+3.500.000
+0
+0012
+294.
+5.1.02.01.0108.06.01.Bimbingan Teknis Pengelolaan ljazah
+1kali
+120000
+120.000
+120.000
+0
+0012
+295.
+5.1.02.01.0108.06.01.Seminar PGRI
+1kali
+150000
+150.000
+150.000
+0
+0012
+296.
+5.1.02.04.01
+08.06.01.Biaya Transport dalam Daerah-Wilayah Kota
+1orang /
+50000
+50.000
+50.000
+0
+0003
+kali
+297.
+5.1.02.04.0108.06.01.Biaya Transport dalam Daerah-Wilayah Kota
+2
+orang /
+100000
+200.000
+200.000
+0
+0003
+hari
+Jumlah
+360.900.000
+187.163.965
+173.736.035
+Kertas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
+Halaman 15 dari 16
+Kec. Tallo, 09 September 2025
+Kepala Sekolah
+Bençahara Sekolah
+Komite SeRplah
+☆
+Megawati, S.Pd
+HasanuddinLestaluhu
+Salvia Salmawati, S.Pd.I., M.Pd
+NIP:198212242014102001
+NIP:198706092010012033
+Halaman 16 dari 16
+rtas Kerja perTahap - NPSN : 40314013, Nama Sekolah : UPT SPF SD INPRES TALLO TUA 2
